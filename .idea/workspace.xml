@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/te.py" beforeDir="false" afterPath="$PROJECT_DIR$/te.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +282,7 @@
       <workItem from="1731468465719" duration="15794000" />
       <workItem from="1731553592536" duration="1751000" />
       <workItem from="1731571271995" duration="1683000" />
-      <workItem from="1731573139687" duration="2129000" />
+      <workItem from="1731573139687" duration="2232000" />
     </task>
     <servers />
   </component>
