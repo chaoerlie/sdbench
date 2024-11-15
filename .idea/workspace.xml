@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
-      <change beforePath="$PROJECT_DIR$/te.py" beforeDir="false" afterPath="$PROJECT_DIR$/te.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tagger.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <window_info id="Merge Requests" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75358427" visible="true" weight="0.3300866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75358427" visible="true" weight="0.26801407" />
       <window_info id="Commit" order="1" sideWeight="0.5008961" weight="0.33011132" />
       <window_info id="VcsChanges" order="2" weight="0.33011132" />
       <window_info id="Structure" order="3" sideWeight="0.49910396" side_tool="true" weight="0.1549502" />
@@ -93,11 +94,11 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.296276" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.2965318" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.28094196" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.31271678" />
       <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3300578" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.28094196" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32962245" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.33023" />
       <window_info anchor="right" id="Endpoints" />
@@ -164,36 +165,14 @@
         <env name="NCCL_IB_DISABLE" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 (3)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sdxl_minimal_inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="sdbench" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/stable" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/stable/sdxl_minimal_inference.py" />
-      <option name="PARAMETERS" value="--ckpt ../../models/sd_xl.safetensors" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -243,7 +222,6 @@
     </configuration>
     <list>
       <item itemvalue="Python.train" />
-      <item itemvalue="Python.sdxl_minimal_inference" />
       <item itemvalue="Python.99" />
       <item itemvalue="Python.inference" />
       <item itemvalue="Shell Script.tagger.sh" />
@@ -251,7 +229,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.inference" />
-        <item itemvalue="Python.sdxl_minimal_inference" />
         <item itemvalue="Shell Script.tagger.sh" />
         <item itemvalue="Python.99" />
       </list>
@@ -282,7 +259,7 @@
       <workItem from="1731468465719" duration="15794000" />
       <workItem from="1731553592536" duration="1751000" />
       <workItem from="1731571271995" duration="1683000" />
-      <workItem from="1731573139687" duration="2232000" />
+      <workItem from="1731573139687" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -306,7 +283,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sdbench$sdxl_minimal_inference.coverage" NAME="sdxl_minimal_inference 覆盖结果" MODIFIED="1731485726117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/stable" />
-    <SUITE FILE_PATH="coverage/sdbench$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1731551565141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sdbench$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1731654055448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$99.coverage" NAME="99 覆盖结果" MODIFIED="1730889515649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$flux_minimal_inference.coverage" NAME="flux_minimal_inference 覆盖结果" MODIFIED="1731313221235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/dev" />
     <SUITE FILE_PATH="coverage/sdbench$train.coverage" NAME="train 覆盖结果" MODIFIED="1731381378222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

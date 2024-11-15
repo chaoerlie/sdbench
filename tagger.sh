@@ -3,7 +3,7 @@ python modules/stable/tag_images_by_wd14_tagger.py \
 --repo_id SmilingWolf/wd-swinv2-tagger-v3 \
 --batch_size 4 \
 --remove_underscore \
---undesired_tags "PUT,YOUR,UNDESIRED,TAGS" \
+--undesired_tags "painting" \
 --recursive \
 --use_rating_tags_as_last_tag \
 --character_tags_first \
