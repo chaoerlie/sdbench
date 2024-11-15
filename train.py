@@ -2,7 +2,7 @@ import argparse
 
 import modules.stable.train_network as train_network
 import sys,os
-print(sys.path)
+
 import toml
 import subprocess
 
