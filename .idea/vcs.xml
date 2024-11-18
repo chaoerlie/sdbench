@@ -6,5 +6,6 @@
     <mapping directory="$PROJECT_DIR$/evaluate/PickScore" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/evaluate/align_sd" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/evaluate/clipscore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sdbench" vcs="Git" />
   </component>
 </project>
