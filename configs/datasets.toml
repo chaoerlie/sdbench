@@ -10,3 +10,4 @@ batch_size = 1                              # 批次大小
   caption_extension = '.txt'            # 若使用txt文件,更改此项
   class_tokens = 'abstract circle'                # 指定标识符类
   num_repeats = 10                          # 训练图像的重复次数
+
