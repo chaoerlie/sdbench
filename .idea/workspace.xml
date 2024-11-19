@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/99.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tagger.sh" afterDir="false" />
-    </list>
+    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +32,12 @@
     &quot;assignee&quot;: &quot;chaoerlie&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chaoerlie/sdbench.git",
-    "accountId": "12819364-c3a0-4fd4-a799-91687ca4811d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chaoerlie/sdbench.git&quot;,
+    &quot;accountId&quot;: &quot;12819364-c3a0-4fd4-a799-91687ca4811d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -52,32 +47,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.99.executor": "Run",
-    "Python.evaluate-test.executor": "Run",
-    "Python.flux_minimal_inference.executor": "Run",
-    "Python.inference.executor": "Run",
-    "Python.sdxl_minimal_inference.executor": "Run",
-    "Python.train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Shell Script.tagger.sh.executor": "Run",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ps/sdbench/modules/stable",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.99.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluate-test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flux_minimal_inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sdxl_minimal_inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Shell Script.tagger.sh.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sd&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ps/sdbench/modules/stable&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
@@ -290,7 +285,7 @@
       <workItem from="1731553592536" duration="1751000" />
       <workItem from="1731571271995" duration="1683000" />
       <workItem from="1731573139687" duration="11253000" />
-      <workItem from="1731930382519" duration="1881000" />
+      <workItem from="1731930382519" duration="1310000" />
     </task>
     <servers />
   </component>

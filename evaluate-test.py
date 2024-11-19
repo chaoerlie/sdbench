@@ -1,6 +1,6 @@
 from evaluate import *
 import ImageReward as RM
-
+import clip
 
 
 #HPS
@@ -19,3 +19,9 @@ print("ImageReward:", rewards)
 #PickScore
 pick_score = calculate_PickScore(image_paths, prompt)
 print("PickScore:", pick_score)
+
+#ClipScore
+device = "cuda"
+model, transform = clip.load("ViT-B/32", device=device, jit=False)
+clip_score = calculate_ClipScore(image_paths, model, prompt)
+print("ClipScore:", clip_score)

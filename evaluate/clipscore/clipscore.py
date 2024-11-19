@@ -21,7 +21,7 @@ import collections
 import os
 import pathlib
 import json
-import generation_eval_utils
+from . import generation_eval_utils
 import pprint
 import warnings
 from packaging import version
@@ -201,6 +201,15 @@ def get_refonlyclipscore(model, references, candidates, device):
         per.append(np.max(all_sims))
 
     return np.mean(per), per
+
+def calculate_ClipScore(image_path, model, candidates, device="cuda", batch_size=64, num_workers=8):
+    image_feats = extract_all_images(image_path, model, device, batch_size=64, num_workers=8)
+    _, per_instance_image_text, candidate_feats = get_clip_score(
+        model, image_feats, candidates, device)
+    return _
+    #试一下其他放回方式
+    
+
 
 
 def main():
