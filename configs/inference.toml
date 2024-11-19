@@ -1,6 +1,6 @@
 ##### 模型选择: default:SD;  SD3;  Flux
 
-model_type = "SD"
+model_type = "SD3"
 
 ##### if modelType == SD
 ### 任务选择
@@ -93,14 +93,16 @@ cfg_scale = 1.0
 #lora_weight = [1.0,1.0]
 
 [SD3]
-ckpt = "models/flux/flux1-dev.sft"
-#clip_g = "models/flux/clip_l.safetensors"
+ckpt = "models/sd3/sd3.5_medium.safetensors"
+clip_g = "models/sd3/clip_g.safetensors"
 clip_l = "models/flux/clip_l.safetensors"
 t5xxl = "models/flux/t5xxl_fp16.safetensors"
-t5xxl_token_length = 256
+#t5xxl_token_length = 256
 prompt = "a cat holding a sign that says hello world"
 negative_prompt = ""
 output = "outputs"
+offload = true
+bf16 = true
 seed = 4
 width = 1024
 height = 1024

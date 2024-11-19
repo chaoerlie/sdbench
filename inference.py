@@ -9,7 +9,7 @@ import modules.stable.sdxl_gen_img as sdxl_gen
 import sys,os
 print(sys.path)
 import toml
-import evaluate.evaluate_uitils as eva
+import evaluate.evaluate_utils as eva
 
 def gen_parser():
     parser = gen_img.setup_parser()
