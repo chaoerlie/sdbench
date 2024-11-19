@@ -4,5 +4,5 @@
 /train
 /evaluate/align_sd/hpc.pt
 *.pt
-*.cpt
+*.ckpt
 *.safetensors
