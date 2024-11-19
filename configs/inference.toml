@@ -1,0 +1,107 @@
+##### 模型选择: default:SD;  SD3;  Flux
+
+model_type = "SD"
+
+##### if modelType == SD
+### 任务选择
+task = "t2i"
+has_lora = true
+has_controlnet = false
+version = "v1"  # v1/v2/sdxl
+
+[general]
+### 基础配置
+ckpt = "models/sd_xl.safetensors"
+
+prompt = "abstract circle"
+negative_prompt = ""
+step = 50
+images_per_prompt = 1
+sampler = "ddim"
+scale = 7.5
+outdir = "outputs"
+n_iter = 1
+H = 512
+W = 512
+batch_size = 1
+seed = 1
+clip_skip = 2
+fp16 = true
+xformers = true
+
+[img2img]
+
+image_path = "1.png"
+strength = 0.7
+use_original_file_name = true
+
+[inpainting]
+
+mask_path = "1.png"
+
+### additional network (LoRA)
+[lora]
+network_module = ["networks.lora"]
+network_weights = ["models/cicle.safetensors"]
+network_mul = [0.8]
+
+### controlnet配置
+[controlnet]
+control_net_models = "diff_control_sd15_canny.safetensors"
+control_net_weights = 1.0
+guide_image_path = "guide.png"
+control_net_ratios = 1.0
+
+
+#[SDXL]
+#ckpt = "models/sd_xl.safetensors"
+#prompt = "a cat holding a sign that says hello world"
+#prompt2 = ""
+#negative_prompt = ""
+#output = "outputs"
+#seed = 4
+#width = 1024
+#height = 1024
+#steps = 50
+#guidance_scale = 3.5
+
+
+#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
+#lora_weight = [1.0,1.0]
+
+##### if modelType == Flux
+
+[flux]
+ckpt = "models/flux/flux1-dev.sft"
+clip_l = "models/flux/clip_l.safetensors"
+t5xxl = "models/flux/t5xxl_fp16.safetensors"
+ae = "models/flux/ae.sft"
+dtype = "bf16"
+prompt = "a cat holding a sign that says hello world"
+negative_prompt = ""
+output = "outputs"
+seed = 4
+flux_dtype = "fp8"
+offload = true
+width = 1024
+height = 1024
+steps = 50
+guidance = 3.5
+cfg_scale = 1.0
+
+#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
+#lora_weight = [1.0,1.0]
+
+[SD3]
+ckpt = "models/flux/flux1-dev.sft"
+#clip_g = "models/flux/clip_l.safetensors"
+clip_l = "models/flux/clip_l.safetensors"
+t5xxl = "models/flux/t5xxl_fp16.safetensors"
+t5xxl_token_length = 256
+prompt = "a cat holding a sign that says hello world"
+negative_prompt = ""
+output = "outputs"
+seed = 4
+width = 1024
+height = 1024
+steps = 50
