@@ -3,4 +3,6 @@
 /wd14_tagger_model/
 /train
 /evaluate/align_sd/hpc.pt
-
+*.pt
+*.cpt
+*.safetensors
