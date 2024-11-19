@@ -6,14 +6,14 @@ from typing import Any, Optional
 
 import torch
 from accelerate import Accelerator
-from library import sd3_models, strategy_sd3, utils
-from library.device_utils import init_ipex, clean_memory_on_device
+from library2 import sd3_models, strategy_sd3, utils
+from library2.device_utils import init_ipex, clean_memory_on_device
 
 init_ipex()
 
-from library import flux_models, flux_train_utils, flux_utils, sd3_train_utils, sd3_utils, strategy_base, strategy_sd3, train_util
+from library2 import flux_models, flux_train_utils, flux_utils, sd3_train_utils, sd3_utils, strategy_base, strategy_sd3, train_util
 import train_network
-from library.utils import setup_logging
+from library2.utils import setup_logging
 
 setup_logging()
 import logging

@@ -1,5 +1,5 @@
 ##### 模型选择: default:SD;  SD3;  Flux
-model_type = "SD"
+model_type = "SD3"
 
 [SD]
 pretrained_model_name_or_path = "models/1.ckpt"
@@ -55,3 +55,31 @@ guidance_scale = 1
 loss_type = "l2"
 
 [SD3]
+
+pretrained_model_name_or_path = "models/sd3/sd3.5_medium.safetensors"
+clip_l = "models/flux/clip_l.safetensors"
+clip_g = "models/sd3/clip_g.safetensors"
+t5xxl = "models/flux/t5xxl_fp16.safetensors"
+cache_latents_to_disk = true
+save_model_as = "safetensors"
+sdpa = true
+persistent_data_loader_workers = true
+max_data_loader_n_workers = 2
+seed = 42
+gradient_checkpointing = true
+mixed_precision = "bf16"
+save_precision = "bf16"
+network_module = "networks.lora_sd3"
+network_dim = 4
+network_train_unet_only = true
+optimizer_type = "adamw8bit"
+learning_rate = 1e-4
+cache_text_encoder_outputs = true
+cache_text_encoder_outputs_to_disk = true
+fp8_base = true
+highvram = true
+max_train_epochs = 4
+save_every_n_epochs = 2
+dataset_config = "configs/datasets.toml"
+output_dir = "outputs/sd3"
+output_name = "sd3-lora-name"

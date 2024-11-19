@@ -50,6 +50,23 @@ def simulated_argv_flux(toml_config):
     print(command)
     subprocess.run(command,stdout=sys.stdout, stderr=sys.stderr)
 
+def simulated_argv_SD3(toml_config):
+    # 基本命令
+    command = ["accelerate", "launch","--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1", "modules/dev/sd3_train_network.py"]
+    model_params = config.get('SD3',{})
+    # 动态添加参数
+    for key, value in model_params.items():
+        # 对布尔值进行特殊处理，只在值为 True 时添加参数
+        if isinstance(value, bool):
+            if value:
+                command.append(f"--{key}")
+        else:
+            # 对其他类型的值进行普通处理
+            command.append(f"--{key}")
+            command.append(str(value))
+    print(command)
+    subprocess.run(command,stdout=sys.stdout, stderr=sys.stderr)
+
 def train_lora_SD():
     parser = gen_parser()
     args = parser.parse_args()
@@ -77,6 +94,13 @@ if __name__ == "__main__":
 
         print(1231231232)
         print("Flux:DONE!!!!!!!!!!!!!!!!!")
+
+    elif model_type ==  "SD3":
+        simulated_argv_SD3(config)
+
+        print(213)
+        print("SD3:DONE!!!!!!!!!!!!!!!!!")
+
 
 
 
