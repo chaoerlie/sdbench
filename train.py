@@ -83,6 +83,7 @@ def simulated_argv_flux(toml_config):
     subprocess.run(command, stdout=sys.stdout, stderr=sys.stderr)
 
 
+
 def simulated_argv_SD3(toml_config):
     # Initialize the command with accelerate launch and basic parameters for SD3 model
     command = ["accelerate", "launch", "--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1",
