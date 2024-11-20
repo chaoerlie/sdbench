@@ -13,93 +13,120 @@ def gen_parser():
     )
     return parser
 
+
 def simulated_argv(toml_config):
-    # 构造模拟的命令行输入参数
-    simulated_input = ["train.py"]  # 第一个参数是脚本名称
+    # Initialize the command with the script name
+    simulated_input = ["train.py"]
+
+    # Select the configuration for SD model from the TOML file
     selected_config = {}
     selected_config.update(toml_config.get('SD', {}))
-    # 动态添加命令行参数，避免使用 if 判断
+
+    # Dynamically add command-line arguments based on the selected configuration
     for key, value in selected_config.items():
-        # 如果是布尔值且为 True，直接添加相应的命令行选项
-        if isinstance(value, bool):
+        if isinstance(value, bool):  # Special handling for boolean values
             if value:
-                simulated_input.append(f"--{key}")  # 比如 --xformers
-            # 其他类型参数以 `--<key>` 的形式添加
-        elif isinstance(value, (str, int, float)):  # 支持字符串、整数、浮动值
+                simulated_input.append(f"--{key}")  # Add flag for True boolean values
+        elif isinstance(value, (str, int, float)):  # Handle string, integer, or float values
             simulated_input.extend([f"--{key}", str(value)])
-        elif isinstance(value, list):  # 如果是列表类型，将每个元素都加入到命令行参数中
+        elif isinstance(value, list):  # Handle list values by adding each item as a separate argument
             simulated_input.extend([f"--{key}"] + [str(v) for v in value])
 
-    # 模拟命令行输入：赋值给 sys.argv
+    # Simulate command-line input by assigning the constructed arguments to sys.argv
     sys.argv = simulated_input
 
+
 def simulated_argv_flux(toml_config):
-    # 基本命令
-    command = ["accelerate", "launch","--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1", "modules/dev/flux_train_network.py"]
-    model_params = config.get('flux',{})
-    # 动态添加参数
+    # Initialize the command with accelerate launch and basic parameters
+    command = ["accelerate", "launch", "--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1",
+               "modules/dev/flux_train_network.py"]
+
+    # Get flux-related model parameters from the configuration
+    model_params = toml_config.get('flux', {})
+
+    # Dynamically add parameters to the command based on the configuration
     for key, value in model_params.items():
-        # 对布尔值进行特殊处理，只在值为 True 时添加参数
-        if isinstance(value, bool):
+        if isinstance(value, bool):  # Special handling for boolean values
             if value:
-                command.append(f"--{key}")
+                command.append(f"--{key}")  # Only add the flag for True boolean values
         else:
-            # 对其他类型的值进行普通处理
+            # For other types (string, int, float), add key-value pairs to the command
             command.append(f"--{key}")
             command.append(str(value))
+
+    # Print the final command for debugging purposes
     print(command)
-    subprocess.run(command,stdout=sys.stdout, stderr=sys.stderr)
+
+    # Execute the command using subprocess
+    subprocess.run(command, stdout=sys.stdout, stderr=sys.stderr)
+
 
 def simulated_argv_SD3(toml_config):
-    # 基本命令
-    command = ["accelerate", "launch","--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1", "modules/dev/sd3_train_network.py"]
-    model_params = config.get('SD3',{})
-    # 动态添加参数
+    # Initialize the command with accelerate launch and basic parameters for SD3 model
+    command = ["accelerate", "launch", "--mixed_precision", "bf16", "--num_cpu_threads_per_process", "1",
+               "modules/dev/sd3_train_network.py"]
+
+    # Get SD3-related model parameters from the configuration
+    model_params = toml_config.get('SD3', {})
+
+    # Dynamically add parameters to the command based on the configuration
     for key, value in model_params.items():
-        # 对布尔值进行特殊处理，只在值为 True 时添加参数
-        if isinstance(value, bool):
+        if isinstance(value, bool):  # Special handling for boolean values
             if value:
-                command.append(f"--{key}")
+                command.append(f"--{key}")  # Add the flag only for True boolean values
         else:
-            # 对其他类型的值进行普通处理
+            # For other types (string, int, float), add key-value pairs to the command
             command.append(f"--{key}")
             command.append(str(value))
+
+    # Print the final command for debugging purposes
     print(command)
-    subprocess.run(command,stdout=sys.stdout, stderr=sys.stderr)
+
+    # Execute the command using subprocess
+    subprocess.run(command, stdout=sys.stdout, stderr=sys.stderr)
+
 
 def train_lora_SD():
+    # Set up the argument parser using gen_parser
     parser = gen_parser()
+    # Parse the command-line arguments
     args = parser.parse_args()
-
+    # Verify the parsed command-line arguments for training
     train_network.train_util.verify_command_line_training_args(args)
+    # Read the training configuration from the specified file
     args = train_network.train_util.read_config_from_file(args, parser)
-
+    # Initialize the trainer and start the training process
     trainer = train_network.NetworkTrainer()
     trainer.train(args)
 
+
 if __name__ == "__main__":
 
+    # Load the configuration file for training
     config = toml.load("configs/train_lora.toml")
 
+    # Get the model type from the configuration
     model_type = config.get('model_type')
 
+    # Check the model type and call the corresponding function for training
     if model_type == "SD":
+        # Simulate command-line arguments for SD model and start training
         simulated_argv(config)
         train_lora_SD()
-        print("model_type:   ",model_type)
+        print("model_type:   ", model_type)
 
     elif model_type == "flux":
-
+        # Simulate command-line arguments for Flux model and print status
         simulated_argv_flux(config)
-
         print(1231231232)
         print("Flux:DONE!!!!!!!!!!!!!!!!!")
 
-    elif model_type ==  "SD3":
+    elif model_type == "SD3":
+        # Simulate command-line arguments for SD3 model and print status
         simulated_argv_SD3(config)
-
         print(213)
         print("SD3:DONE!!!!!!!!!!!!!!!!!")
+
 
 
 

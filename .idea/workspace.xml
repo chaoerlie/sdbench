@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="Update dataset config and workspace for SD3 lora train">
+    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="Update inference comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/inference.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/inference.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +297,7 @@
       <workItem from="1732014307494" duration="232000" />
       <workItem from="1732014559748" duration="135000" />
       <workItem from="1732014940701" duration="324000" />
-      <workItem from="1732068684135" duration="1569000" />
+      <workItem from="1732068684135" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
       <option name="closed" value="true" />
@@ -364,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732015226563</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update inference comments">
+      <option name="closed" value="true" />
+      <created>1732070320479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732070320479</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +408,8 @@
     <MESSAGE value="complete SD3 inference" />
     <MESSAGE value="complete SD3 lora train" />
     <MESSAGE value="Update dataset config and workspace for SD3 lora train" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update dataset config and workspace for SD3 lora train" />
+    <MESSAGE value="Update inference comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update inference comments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sdbench$evaluate_test.coverage" NAME="evaluate-test 覆盖结果" MODIFIED="1731918623397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
