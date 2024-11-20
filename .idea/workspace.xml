@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="Update train comments">
+    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="SDXL training&#10;modify toml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/inference.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/inference.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/train_lora.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/train_lora.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +298,7 @@
       <workItem from="1732014307494" duration="232000" />
       <workItem from="1732014559748" duration="135000" />
       <workItem from="1732014940701" duration="324000" />
-      <workItem from="1732068684135" duration="2974000" />
+      <workItem from="1732068684135" duration="6476000" />
     </task>
     <task id="LOCAL-00001" summary="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
       <option name="closed" value="true" />
@@ -381,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732070567790</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="SDXL training&#10;modify toml file">
+      <option name="closed" value="true" />
+      <created>1732073190224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732073190224</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +427,8 @@
     <MESSAGE value="Update dataset config and workspace for SD3 lora train" />
     <MESSAGE value="Update inference comments" />
     <MESSAGE value="Update train comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update train comments" />
+    <MESSAGE value="SDXL training&#10;modify toml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="SDXL training&#10;modify toml file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sdbench$evaluate_test.coverage" NAME="evaluate-test 覆盖结果" MODIFIED="1731918623397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -428,6 +436,6 @@
     <SUITE FILE_PATH="coverage/sdbench$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1732070077545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$99.coverage" NAME="99 覆盖结果" MODIFIED="1730889515649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$flux_minimal_inference.coverage" NAME="flux_minimal_inference 覆盖结果" MODIFIED="1731313221235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/dev" />
-    <SUITE FILE_PATH="coverage/sdbench$train.coverage" NAME="train 覆盖结果" MODIFIED="1732071383546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sdbench$train.coverage" NAME="train 覆盖结果" MODIFIED="1732086665919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

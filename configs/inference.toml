@@ -26,23 +26,19 @@ seed = 1
 clip_skip = 2
 fp16 = true
 xformers = true
-
+### img2img
 [img2img]
-
 image_path = "1.png"
 strength = 0.7
 use_original_file_name = true
-
+### inpainting
 [inpainting]
-
 mask_path = "1.png"
-
 ### additional network (LoRA)
 [lora]
 network_module = ["networks.lora"]
 network_weights = ["models/cicle.safetensors"]
 network_mul = [0.8]
-
 ### controlnet配置
 [controlnet]
 control_net_models = "diff_control_sd15_canny.safetensors"
