@@ -1,8 +1,7 @@
 ##### 模型选择: default:SD;  SD3;  Flux
-
 model_type = "flux"
 
-##### if modelType == SD
+#------------------------------------- if modelType == SD -------------------------------------
 ### 任务选择
 task = "t2i"
 has_lora = true
@@ -12,7 +11,6 @@ version = "v1"  # v1/v2/sdxl
 [general]
 ### 基础配置
 ckpt = "models/1.ckpt"
-
 prompt = "abstract circle"
 negative_prompt = ""
 step = 50
@@ -53,23 +51,9 @@ guide_image_path = "guide.png"
 control_net_ratios = 1.0
 
 
-#[SDXL]
-#ckpt = "models/sd_xl.safetensors"
-#prompt = "a cat holding a sign that says hello world"
-#prompt2 = ""
-#negative_prompt = ""
-#output = "outputs"
-#seed = 4
-#width = 1024
-#height = 1024
-#steps = 50
-#guidance_scale = 3.5
 
 
-#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
-#lora_weight = [1.0,1.0]
-
-##### if modelType == Flux
+#------------------------------------- if modelType == Flux -------------------------------------
 
 [flux]
 ckpt = "models/flux/flux1-dev.sft"
@@ -92,6 +76,7 @@ cfg_scale = 1.0
 #lora_model_path = ["models/test.safetensors","models/test.safetensors"]
 #lora_weight = [1.0,1.0]
 
+# ------------------------------------- if modelType == SD3 -------------------------------------
 [SD3]
 ckpt = "models/sd3/sd3.5_medium.safetensors"
 clip_g = "models/sd3/clip_g.safetensors"
@@ -107,3 +92,20 @@ seed = 4
 width = 1024
 height = 1024
 steps = 50
+
+
+#[SDXL]
+#ckpt = "models/sd_xl.safetensors"
+#prompt = "a cat holding a sign that says hello world"
+#prompt2 = ""
+#negative_prompt = ""
+#output = "outputs"
+#seed = 4
+#width = 1024
+#height = 1024
+#steps = 50
+#guidance_scale = 3.5
+
+
+#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
+#lora_weight = [1.0,1.0]

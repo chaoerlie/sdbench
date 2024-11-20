@@ -35,6 +35,29 @@ def simulated_argv(toml_config):
     # Simulate command-line input by assigning the constructed arguments to sys.argv
     sys.argv = simulated_input
 
+def simulated_argv_SDXL(toml_config):
+
+    # Initialize the command with accelerate launch and basic parameters for SDXL model
+    command = ["python", "modules/stable/sdxl_train_network.py"]
+
+    # Get SDXL-related model parameters from the configuration
+    model_params = toml_config.get('SDXL', {})
+
+    # Dynamically add parameters to the command based on the configuration
+    for key, value in model_params.items():
+        if isinstance(value, bool):  # Special handling for boolean values
+            if value:
+                command.append(f"--{key}")  # Add the flag only for True boolean values
+        else:
+            # For other types (string, int, float), add key-value pairs to the command
+            command.append(f"--{key}")
+            command.append(str(value))
+
+    # Print the final command for debugging purposes
+    print(command)
+
+    # Execute the command using subprocess
+    subprocess.run(command, stdout=sys.stdout, stderr=sys.stderr)
 
 def simulated_argv_flux(toml_config):
     # Initialize the command with accelerate launch and basic parameters
@@ -115,6 +138,12 @@ if __name__ == "__main__":
         train_lora_SD()
         print("model_type:   ", model_type)
 
+    elif model_type == "SDXL":
+        # Simulate command-line arguments for SDXL model and print status
+        simulated_argv_SDXL(config)
+        print(213)
+        print("SD3:DONE!!!!!!!!!!!!!!!!!")
+
     elif model_type == "flux":
         # Simulate command-line arguments for Flux model and print status
         simulated_argv_flux(config)
@@ -126,6 +155,8 @@ if __name__ == "__main__":
         simulated_argv_SD3(config)
         print(213)
         print("SD3:DONE!!!!!!!!!!!!!!!!!")
+
+
 
 
 
