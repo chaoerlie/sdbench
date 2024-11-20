@@ -1,6 +1,6 @@
 ##### 模型选择: default:SD;  SD3;  Flux
 
-model_type = "SD3"
+model_type = "flux"
 
 ##### if modelType == SD
 ### 任务选择
@@ -11,7 +11,7 @@ version = "v1"  # v1/v2/sdxl
 
 [general]
 ### 基础配置
-ckpt = "models/sd_xl.safetensors"
+ckpt = "models/1.ckpt"
 
 prompt = "abstract circle"
 negative_prompt = ""

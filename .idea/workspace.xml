@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="complete SD3 lora train">
+    <list default="true" id="745e1fa0-46b6-4d46-9282-117b3cb322ff" name="更改" comment="Update dataset config and workspace for SD3 lora train">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/datasets.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/datasets.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluate-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/inference.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/inference.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <window_info id="Pull Requests" />
       <window_info id="Learn" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680375" />
-      <window_info id="Commit" order="1" weight="0.26801407" />
+      <window_info id="Commit" order="1" weight="0.2680375" />
       <window_info id="VcsChanges" order="2" weight="0.33011132" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -95,7 +95,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="HfCacheToolWindow" />
       <window_info anchor="bottom" id="File Transfer" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33023" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.3300578" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.33023" />
@@ -116,7 +116,7 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Plots" order="5" weight="0.1" />
-      <window_info anchor="right" id="codegeexToolWindow" order="6" weight="0.3300866" />
+      <window_info active="true" anchor="right" id="codegeexToolWindow" order="6" visible="true" weight="0.12878788" />
       <window_info active="true" anchor="right" id="Remote Host" order="7" side_tool="true" visible="true" weight="0.16139425" />
     </layout>
   </component>
@@ -136,7 +136,7 @@
       <recent name="$PROJECT_DIR$/configs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.inference">
     <configuration name="99" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sdbench" />
       <option name="ENV_FILES" value="" />
@@ -297,7 +297,8 @@
       <workItem from="1732012082388" duration="1302000" />
       <workItem from="1732014307494" duration="232000" />
       <workItem from="1732014559748" duration="135000" />
-      <workItem from="1732014940701" duration="238000" />
+      <workItem from="1732014940701" duration="324000" />
+      <workItem from="1732068684135" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="fix crashing in DDP training closes #1751&#10;reduce VRAM usage, instead of increasing main RAM usage&#10;Add files via upload">
       <option name="closed" value="true" />
@@ -355,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732011173166</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update dataset config and workspace for SD3 lora train">
+      <option name="closed" value="true" />
+      <created>1732015226563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732015226563</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,12 +400,13 @@
     <MESSAGE value="Update .gitignore to ignore .ckpt files" />
     <MESSAGE value="complete SD3 inference" />
     <MESSAGE value="complete SD3 lora train" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete SD3 lora train" />
+    <MESSAGE value="Update dataset config and workspace for SD3 lora train" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update dataset config and workspace for SD3 lora train" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sdbench$evaluate_test.coverage" NAME="evaluate-test 覆盖结果" MODIFIED="1731918623397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$sdxl_minimal_inference.coverage" NAME="sdxl_minimal_inference 覆盖结果" MODIFIED="1731485726117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/stable" />
-    <SUITE FILE_PATH="coverage/sdbench$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1732009685974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sdbench$inference.coverage" NAME="inference 覆盖结果" MODIFIED="1732070077545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$99.coverage" NAME="99 覆盖结果" MODIFIED="1730889515649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sdbench$flux_minimal_inference.coverage" NAME="flux_minimal_inference 覆盖结果" MODIFIED="1731313221235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/dev" />
     <SUITE FILE_PATH="coverage/sdbench$train.coverage" NAME="train 覆盖结果" MODIFIED="1732010968515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
