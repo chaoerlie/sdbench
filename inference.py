@@ -1,13 +1,11 @@
 import argparse
 import subprocess
-
-
 import modules.stable.gen_img as gen_img
 # import modules.stable.gen_img_diffusers as gen_img2
 import modules.dev.flux_minimal_inference as flux_gen
 import modules.stable.sdxl_gen_img as sdxl_gen
 import sys,os
-print(sys.path)
+# print(sys.path)
 import toml
 import evaluate.evaluate_utils as eva
 
@@ -185,6 +183,7 @@ if __name__ == "__main__":
         simulated_SD_argv(config)  # Simulate SD model argument setup
         print("model_type:   ", model_type)
         gen_img_SD()  # Generate image using SD model
+        print("SD:DONE!!!!!!!!!!!!!!!!!")
 
     elif model_type == "flux":
         print(1231231232)
