@@ -1,6 +1,5 @@
 from evaluate import *
 import ImageReward as RM
-import clip
 
 
 #HPS
