@@ -5,7 +5,7 @@ import modules.stable.gen_img as gen_img
 import modules.dev.flux_minimal_inference as flux_gen
 import modules.stable.sdxl_gen_img as sdxl_gen
 import sys
-import toml
+import toml # type: ignore
 import evaluate.evaluate_utils as eva
 
 def gen_parser():

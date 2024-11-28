@@ -1,6 +1,7 @@
 from evaluate import *
 import ImageReward as RM
-
+import torch
+print(torch.backends.cudnn.version())
 
 #HPS
 image_paths = ["/home/ps/zyp/evaluate/clipscore/example/BM/1.png"]

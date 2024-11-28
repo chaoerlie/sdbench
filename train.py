@@ -1,9 +1,9 @@
 import argparse
-
 import modules.stable.train_network as train_network
 import sys,os
 import toml
 import subprocess
+
 
 def gen_parser():
     parser = train_network.setup_parser()

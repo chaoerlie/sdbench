@@ -10,7 +10,8 @@ version = "v1"  # v1/v2/sdxl
 
 [general]
 ### 基础配置
-ckpt = "models/1.ckpt"
+ckpt = "/home/ps/sdbench/models/1.ckpt" # 绝对路径
+# ckpt = "models/1.ckpt"
 prompt = "abstract circle"
 negative_prompt = ""
 step = 50

@@ -2,12 +2,12 @@
 enable_bucket = true                        # 是否使用Aspect Ratio Bucketing
 
 [[datasets]]
-resolution = 512                            # 训练分辨率
+resolution = 1024                            # 训练分辨率
 batch_size = 1                              # 批次大小
 
   [[datasets.subsets]]
-  image_dir = 'train/datasets/scircle'                     # 指定包含训练图像的文件夹
+  image_dir = 'train/datasets/chinese'                     # 指定包含训练图像的文件夹
   caption_extension = '.txt'            # 若使用txt文件,更改此项
-  class_tokens = 'abstract circle'                # 指定标识符类
-  num_repeats = 10                          # 训练图像的重复次数
+  class_tokens = 'chinese painting'                # 指定标识符类
+  num_repeats = 5                          # 训练图像的重复次数
 
