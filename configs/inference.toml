@@ -1,5 +1,5 @@
 ##### 模型选择: default:SD;  SD3;  Flux
-model_type = "flux"
+model_type = "SD"
 
 #------------------------------------- if modelType == SD -------------------------------------
 ### 任务选择

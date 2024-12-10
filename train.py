@@ -4,6 +4,10 @@ import sys,os
 import toml
 import subprocess
 
+os.environ["NCCL_IB_DISABLE"] = "1"
+os.environ["NCCL_P2P_DISABLE"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+
 
 def gen_parser():
     parser = train_network.setup_parser()
@@ -142,7 +146,7 @@ if __name__ == "__main__":
         # Simulate command-line arguments for SDXL model and print status
         simulated_argv_SDXL(config)
         print(213)
-        print("SD3:DONE!!!!!!!!!!!!!!!!!")
+        print("SDXL:DONE!!!!!!!!!!!!!!!!!")
 
     elif model_type == "flux":
         # Simulate command-line arguments for Flux model and print status

@@ -1,8 +1,11 @@
 [general]
 enable_bucket = true                        # 是否使用Aspect Ratio Bucketing
+# shuffle_caption = true
+caption_extension = '.txt'
+keep_tokens = 1
 
 [[datasets]]
-resolution = 1024                            # 训练分辨率
+resolution = 512                          # 训练分辨率
 batch_size = 1                              # 批次大小
 
   [[datasets.subsets]]
@@ -10,4 +13,5 @@ batch_size = 1                              # 批次大小
   caption_extension = '.txt'            # 若使用txt文件,更改此项
   class_tokens = 'chinese painting'                # 指定标识符类
   num_repeats = 5                          # 训练图像的重复次数
+#  resolution = 1024
 
