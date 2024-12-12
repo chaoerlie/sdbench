@@ -8,3 +8,6 @@
 *.ckpt
 *.safetensors
 *.log
+*.png
+*.jpg
+*.jpeg
