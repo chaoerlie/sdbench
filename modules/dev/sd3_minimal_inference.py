@@ -236,6 +236,7 @@ if __name__ == "__main__":
     parser.add_argument("--bf16", action="store_true")
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--steps", type=int, default=50)
+    parser.add_argument("--n_samples", type=int, default=1)
     parser.add_argument(
         "--lora_weights",
         type=str,
@@ -323,7 +324,10 @@ if __name__ == "__main__":
         lora_models.append(lora_model)
 
     if not args.interactive:
-        generate_image(
+        for index in range(args.n_samples):
+            print("index----------------------------------------------------------------------------------------,",
+                  index)
+            generate_image(
             mmdit,
             vae,
             clip_l,

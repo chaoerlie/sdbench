@@ -437,6 +437,7 @@ def gen_img():
     parser.add_argument("--width", type=int, default=target_width)
     parser.add_argument("--height", type=int, default=target_height)
     parser.add_argument("--interactive", action="store_true")
+    parser.add_argument("--n_samples",type=int, default=1)
     args = parser.parse_args()
 
     seed = args.seed
@@ -530,7 +531,10 @@ def gen_img():
         lora_models.append(lora_model)
 
     if not args.interactive:
-        generate_image(
+        for index in range(args.n_samples):
+            print("index----------------------------------------------------------------------------------------,",
+                  index)
+            generate_image(
             model,
             clip_l,
             t5xxl,

@@ -1,5 +1,5 @@
 ##### 模型选择: default:SD;  SD3;  Flux
-model_type = "SD"
+model_type = "SD3"
 
 #------------------------------------- if modelType == SD -------------------------------------
 ### 任务选择
@@ -58,10 +58,10 @@ clip_l = "models/flux/clip_l.safetensors"
 t5xxl = "models/flux/t5xxl_fp16.safetensors"
 ae = "models/flux/ae.sft"
 dtype = "bf16"
-prompt = "a cat holding a sign that says hello world"
+prompt = "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks."
 negative_prompt = ""
-output = "outputs"
-seed = 4
+output = "outputs/fluxlora_30_5"
+#seed = 4
 flux_dtype = "fp8"
 offload = true
 width = 1024
@@ -69,8 +69,12 @@ height = 1024
 steps = 50
 guidance = 3.5
 cfg_scale = 1.0
+n_samples = 50
 
-#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
+lora_model_path = ["models/lora/fluxlora/chinese_painting-30.safetensors"]
+lora_weight = [1.0]
+
+#lora_model_path = ["models/lora/fluxlora/chinese_painting-20.safetensors","models/test.safetensors"]
 #lora_weight = [1.0,1.0]
 
 # ------------------------------------- if modelType == SD3 -------------------------------------
@@ -80,16 +84,19 @@ clip_g = "models/sd3/clip_g.safetensors"
 clip_l = "models/flux/clip_l.safetensors"
 t5xxl = "models/flux/t5xxl_fp16.safetensors"
 #t5xxl_token_length = 256
-prompt = "a cat holding a sign that says hello world"
+prompt = "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass."
 negative_prompt = ""
-output = "outputs"
+output = "outputs/SD3lora_40_3"
 offload = true
 bf16 = true
-seed = 4
+#seed = 4
 width = 1024
 height = 1024
 steps = 50
+n_samples = 50
 
+lora_model_path = ["models/lora/sd3lora/chinese_painting-40.safetensors"]
+lora_weight = [1.0]
 
 #[SDXL]
 #ckpt = "models/sd_xl.safetensors"
@@ -104,5 +111,4 @@ steps = 50
 #guidance_scale = 3.5
 
 
-#lora_model_path = ["models/test.safetensors","models/test.safetensors"]
-#lora_weight = [1.0,1.0]
+

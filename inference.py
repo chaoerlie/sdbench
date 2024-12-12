@@ -4,9 +4,12 @@ import modules.stable.gen_img as gen_img
 # import modules.stable.gen_img_diffusers as gen_img2
 import modules.dev.flux_minimal_inference as flux_gen
 import modules.stable.sdxl_gen_img as sdxl_gen
-import sys
+import sys,os
 import toml # type: ignore
 import evaluate.evaluate_utils as eva
+
+os.environ["NCCL_IB_DISABLE"] = "1"
+os.environ["NCCL_P2P_DISABLE"] = "1"
 
 def gen_parser():
     parser = gen_img.setup_parser()
@@ -134,9 +137,10 @@ def simulated_flux_argv(toml_config):
 def simulated_SD3_argv(toml_config):
     # Initialize the command with the script name
     command = ["python", "modules/dev/sd3_minimal_inference.py"]
-
+    # Select the configuration from the 'flux' section in the toml_config
+    model_params = {}
     # Get SD3-related model parameters from the config
-    model_params = toml_config.get('SD3', {})
+    model_params.update(toml_config.get('SD3', {}))
 
     # Handle lora parameters: lora_model_path and lora_weight
     lora_model_paths = model_params.pop('lora_model_path', [])
@@ -146,7 +150,7 @@ def simulated_SD3_argv(toml_config):
         # Ensure lora_model_paths and lora_weights have the same length
         lora_weights = lora_weights[:len(lora_model_paths)]
         lora_params = [f"{path};{weight}" for path, weight in zip(lora_model_paths, lora_weights)]
-        model_params.extend(["--lora_weights"] + lora_params)  # Add lora weights to the command
+        command.extend(["--lora_weights"] + lora_params)  # Add lora weights to the command
 
     # Dynamically add other parameters to the command
     for key, value in model_params.items():
