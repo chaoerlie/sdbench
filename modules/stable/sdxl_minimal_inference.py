@@ -120,6 +120,7 @@ if __name__ == "__main__":
     parser.add_argument("--steps", type=int , default=steps)
     parser.add_argument("--guidance_scale", type=float, default=guidance_scale)
     parser.add_argument("--seed", type=int, default=seed)
+    parser.add_argument("--n_samples", type=int, default=1)
     args = parser.parse_args()
 
     target_width = args.width
@@ -129,6 +130,7 @@ if __name__ == "__main__":
     seed = args.seed
     text_encoder_1_name = args.text_encoder_1_name
     text_encoder_2_name = args.text_encoder_2_name
+    n_samples = args.n_samples
 
     if args.prompt2 is None:
         args.prompt2 = args.prompt
@@ -338,10 +340,17 @@ if __name__ == "__main__":
         # 保存して終了 save and finish
         timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
         for i, img in enumerate(image):
+            # 如果没有父目录，则创建
+            os.makedirs(args.output_dir, exist_ok=True)
             img.save(os.path.join(args.output_dir, f"image_{timestamp}_{i:03d}.png"))
 
     if not args.interactive:
-        generate_image(args.prompt, args.prompt2, args.negative_prompt, seed)
+        
+        for i in range(args.n_samples):
+            if seed==None:
+                seedi = random.randint(0, 2**32 - 1)
+            print(f"Generating image {i+1}/{args.n_samples}...","seed:" ,seedi)
+            generate_image(args.prompt, args.prompt2, args.negative_prompt, seedi)
     else:
         # loop for interactive
         while True:

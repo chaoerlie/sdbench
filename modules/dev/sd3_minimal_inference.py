@@ -151,6 +151,9 @@ def generate_image(
     # prepare embeddings
     logger.info("Encoding prompts...")
 
+    if seed == -1:
+        seed = random.randint(0, 2**32 -1)
+    print("seed:--------------------------------------------- ,",str(seed))
     # TODO support one-by-one offloading
     clip_l.to(device)
     clip_g.to(device)
@@ -234,7 +237,7 @@ if __name__ == "__main__":
     # parser.add_argument("--attn_mode", type=str, default="torch", help="torch (SDPA) or xformers. default: torch")
     parser.add_argument("--fp16", action="store_true")
     parser.add_argument("--bf16", action="store_true")
-    parser.add_argument("--seed", type=int, default=1)
+    parser.add_argument("--seed", type=int, default=-1)
     parser.add_argument("--steps", type=int, default=50)
     parser.add_argument("--n_samples", type=int, default=1)
     parser.add_argument(
