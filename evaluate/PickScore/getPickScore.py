@@ -2,14 +2,14 @@ from transformers import AutoProcessor, AutoModel
 from PIL import Image
 import torch
 
-def calculate_PickScore(image_paths, prompt, device="cuda"):
+def calculate_PickScore(image_path, prompt, device="cuda"):
     processor_name_or_path = "laion/CLIP-ViT-H-14-laion2B-s32B-b79K"
     model_pretrained_name_or_path = "yuvalkirstain/PickScore_v1"
     processor = AutoProcessor.from_pretrained(processor_name_or_path)
     model = AutoModel.from_pretrained(model_pretrained_name_or_path).eval().to(device)
-    pil_images = [Image.open(path) for path in image_paths]
+    pil_image = Image.open(image_path)
     image_inputs = processor(
-        images=pil_images,
+        images=pil_image,
         padding=True,
         truncation=True,
         max_length=77,
@@ -36,4 +36,10 @@ def calculate_PickScore(image_paths, prompt, device="cuda"):
         # get probabilities if you have multiple images to choose from
         probs = torch.softmax(scores, dim=-1)
     
-    return probs.cpu().tolist()
+    return probs.cpu().item()
+
+if __name__ == "__main__":
+    image_path = "/home/ps/sdbench/outputs/fluxlora_30_1/20241211_164222_1.png"
+    prompt = "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist."
+    score = calculate_PickScore(image_path, prompt)
+    print(f"PickScore: {score}")

@@ -1,12 +1,13 @@
+#基于evaluate_hps.py修改
 import torch
 import clip
 from PIL import Image
 
 
-def calculate_hps(image_paths, prompt, hpc_path, device="cuda"):
+def calculate_hps(image_path, prompt, hpc_path, device="cuda"):
     """
     计算 HPS (Hierarchical Precision Score)
-    :param image_paths: List of image file paths (e.g., ["image1.png", "image2.png"])
+    :param image_paths: image file paths
     :param prompt: Text prompt for comparison (e.g., "your prompt here")
     :param hpc_path: Path to the HPC model checkpoint file (e.g., "path/to/hpc.pth")
     :param device: Device to run on ("cuda" or "cpu")
@@ -22,7 +23,7 @@ def calculate_hps(image_paths, prompt, hpc_path, device="cuda"):
     model = model.to(device).eval()
     
     # 预处理图像
-    images = torch.cat([preprocess(Image.open(path)).unsqueeze(0) for path in image_paths], dim=0).to(device)
+    images = preprocess(Image.open(image_path)).unsqueeze(0).to(device)
     
     # 处理文本
     text = clip.tokenize([prompt]).to(device)
@@ -39,4 +40,4 @@ def calculate_hps(image_paths, prompt, hpc_path, device="cuda"):
         # 计算 HPS
         hps = image_features @ text_features.T
 
-    return hps.squeeze().tolist()
+    return hps.item()
