@@ -91,33 +91,32 @@ def compute_and_save_scores(output_dir, prompt_file,output_json):
 
 if __name__ == "__main__":
     # #HPS
-    # image_path = "/home/ps/zyp/evaluate/clipscore/example/BM/1.png"
-    # prompt = "A traditional Chinese Bai Miao style ink drawing of a refined woman standing gracefully, wearing flowing traditional robes with intricate patterns and detailed designs on the collar and sleeves."
-    # hpc_path = "/home/ps/sdbench/models/hps/hpc.pt"
-    # hps = calculate_hps(image_path, prompt, hpc_path)
-    # print("hps:",hps)
+    image_path = "/home/ps/sdbench/outputs/reference/40.jpg"
+    prompt = "traditional Chinese painting, misty mountains, calm river, small boat, pine trees, ink wash, soft green and gray tones, serene atmosphere"
+    hpc_path = "/home/ps/sdbench/models/hps/hpc.pt"
+    hps = calculate_hps(image_path, prompt, hpc_path)
+    print("hps:",hps)
 
-    # #ImageReward
-    # model = RM.load("ImageReward-v1.0")
-    # rewards = model.score(prompt, image_path)
-    # print("ImageReward:", rewards)
+    #ImageReward
+    model = RM.load("ImageReward-v1.0")
+    rewards = model.score(prompt, image_path)
+    print("ImageReward:", rewards)
 
-    # #PickScore
-    # pick_score = calculate_PickScore(image_path, prompt)
-    # print("PickScore:", pick_score)
+    #PickScore
+    pick_score = calculate_PickScore(image_path, prompt)
+    print("PickScore:", pick_score)
 
-    # #ClipScore
-    # device = "cuda" if torch.cuda.is_available() else "cpu"
-    # model, transform = clip.load("ViT-B/32", device=device, jit=False)
-    # model.eval()
-    # clip_score = get_clip_score_for_image_and_prompt(image_path, prompt, model, device)
-    # print(f"CLIPScore for the image and prompt: {clip_score:.4f}")
-    output_json = "/home/ps/sdbench/outputs/results.json"
-    output_dir = "/home/ps/sdbench/outputs"
-    prompt_file = "/home/ps/sdbench/outputs/prompt.txt"
-    # compute_and_save_scores(output_dir, prompt_file, output_json)
-    folder_paths, prompts = get_folders_and_prompts(output_dir,prompt_file)
-    print("folder_paths:",folder_paths)
+    #ClipScore
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model, transform = clip.load("ViT-B/32", device=device, jit=False)
+    model.eval()
+    clip_score = get_clip_score_for_image_and_prompt(image_path, prompt, model, device)
+    print(f"CLIPScore for the image and prompt: {clip_score:.4f}")
+    # output_json = "/home/ps/sdbench/outputs/results.json"
+    # output_dir = "/home/ps/sdbench/outputs"
+    # prompt_file = "/home/ps/sdbench/outputs/prompt.txt"
+    # folder_paths, prompts = get_folders_and_prompts(output_dir,prompt_file)
+    # print("folder_paths:",folder_paths)
 
 
 

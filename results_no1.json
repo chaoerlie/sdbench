@@ -738,421 +738,6 @@
             "ClipScore": 0.3681640625
         }
     ],
-    "sdxllora_50_1": [
-        {
-            "image_name": "image_20241213-160023_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2073974609375,
-            "ImageReward": 0.962316632270813,
-            "ClipScore": 0.378173828125
-        },
-        {
-            "image_name": "image_20241213-155936_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.218994140625,
-            "ImageReward": 1.2755498886108398,
-            "ClipScore": 0.379638671875
-        },
-        {
-            "image_name": "image_20241213-155702_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2073974609375,
-            "ImageReward": 1.2440712451934814,
-            "ClipScore": 0.3876953125
-        },
-        {
-            "image_name": "image_20241213-155555_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.216796875,
-            "ImageReward": 1.1145257949829102,
-            "ClipScore": 0.38818359375
-        },
-        {
-            "image_name": "image_20241213-155649_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2193603515625,
-            "ImageReward": 1.2924084663391113,
-            "ClipScore": 0.38818359375
-        },
-        {
-            "image_name": "image_20241213-155535_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.208984375,
-            "ImageReward": 1.1712473630905151,
-            "ClipScore": 0.362548828125
-        },
-        {
-            "image_name": "image_20241213-155823_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.214599609375,
-            "ImageReward": 1.1239696741104126,
-            "ClipScore": 0.389892578125
-        },
-        {
-            "image_name": "image_20241213-154458_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2120361328125,
-            "ImageReward": 1.214874029159546,
-            "ClipScore": 0.3828125
-        },
-        {
-            "image_name": "image_20241213-155609_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2080078125,
-            "ImageReward": 1.26313316822052,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-155742_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21826171875,
-            "ImageReward": 1.310321569442749,
-            "ClipScore": 0.378662109375
-        },
-        {
-            "image_name": "image_20241213-154451_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2120361328125,
-            "ImageReward": 1.214874029159546,
-            "ClipScore": 0.3828125
-        },
-        {
-            "image_name": "image_20241213-155809_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2073974609375,
-            "ImageReward": 0.9393278956413269,
-            "ClipScore": 0.382080078125
-        },
-        {
-            "image_name": "image_20241213-155602_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.214111328125,
-            "ImageReward": 1.1709511280059814,
-            "ClipScore": 0.38525390625
-        },
-        {
-            "image_name": "image_20241213-155332_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21826171875,
-            "ImageReward": 1.0776984691619873,
-            "ClipScore": 0.3935546875
-        },
-        {
-            "image_name": "image_20241213-154710_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2037353515625,
-            "ImageReward": 0.5409775972366333,
-            "ClipScore": 0.335693359375
-        },
-        {
-            "image_name": "image_20241213-160103_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2081298828125,
-            "ImageReward": 0.8836673498153687,
-            "ClipScore": 0.378662109375
-        },
-        {
-            "image_name": "image_20241213-160030_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.20703125,
-            "ImageReward": 0.9988842606544495,
-            "ClipScore": 0.3701171875
-        },
-        {
-            "image_name": "image_20241213-155910_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.203125,
-            "ImageReward": 1.1512951850891113,
-            "ClipScore": 0.36767578125
-        },
-        {
-            "image_name": "image_20241213-160017_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2119140625,
-            "ImageReward": 1.0988600254058838,
-            "ClipScore": 0.36865234375
-        },
-        {
-            "image_name": "image_20241213-154717_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.20263671875,
-            "ImageReward": 0.6791306138038635,
-            "ClipScore": 0.326416015625
-        },
-        {
-            "image_name": "image_20241213-155716_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.22119140625,
-            "ImageReward": 1.2540349960327148,
-            "ClipScore": 0.382080078125
-        },
-        {
-            "image_name": "image_20241213-155319_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21826171875,
-            "ImageReward": 1.1847447156906128,
-            "ClipScore": 0.393310546875
-        },
-        {
-            "image_name": "image_20241213-155930_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.207275390625,
-            "ImageReward": 0.5474890470504761,
-            "ClipScore": 0.364501953125
-        },
-        {
-            "image_name": "image_20241213-155836_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2147216796875,
-            "ImageReward": 1.005405068397522,
-            "ClipScore": 0.391845703125
-        },
-        {
-            "image_name": "image_20241213-154444_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2122802734375,
-            "ImageReward": 1.2738163471221924,
-            "ClipScore": 0.37939453125
-        },
-        {
-            "image_name": "image_20241213-155542_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2066650390625,
-            "ImageReward": 0.9870159029960632,
-            "ClipScore": 0.35302734375
-        },
-        {
-            "image_name": "image_20241213-154627_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.207763671875,
-            "ImageReward": 1.0929700136184692,
-            "ClipScore": 0.380126953125
-        },
-        {
-            "image_name": "image_20241213-160043_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2081298828125,
-            "ImageReward": 0.9672508239746094,
-            "ClipScore": 0.38427734375
-        },
-        {
-            "image_name": "image_20241213-160050_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.200927734375,
-            "ImageReward": 0.9500977396965027,
-            "ClipScore": 0.332763671875
-        },
-        {
-            "image_name": "image_20241213-155916_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.210693359375,
-            "ImageReward": 1.11143958568573,
-            "ClipScore": 0.38037109375
-        },
-        {
-            "image_name": "image_20241213-155950_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2001953125,
-            "ImageReward": 0.6692944765090942,
-            "ClipScore": 0.33447265625
-        },
-        {
-            "image_name": "image_20241213-160010_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.201171875,
-            "ImageReward": 1.00013267993927,
-            "ClipScore": 0.35302734375
-        },
-        {
-            "image_name": "image_20241213-155829_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2113037109375,
-            "ImageReward": 1.1848686933517456,
-            "ClipScore": 0.379638671875
-        },
-        {
-            "image_name": "image_20241213-155756_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.202880859375,
-            "ImageReward": 0.8651148080825806,
-            "ClipScore": 0.359375
-        },
-        {
-            "image_name": "image_20241213-155615_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2056884765625,
-            "ImageReward": 0.912621796131134,
-            "ClipScore": 0.361572265625
-        },
-        {
-            "image_name": "image_20241213-155856_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2032470703125,
-            "ImageReward": 0.9279907941818237,
-            "ClipScore": 0.330078125
-        },
-        {
-            "image_name": "image_20241213-155923_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.1993408203125,
-            "ImageReward": 0.026005908846855164,
-            "ClipScore": 0.297119140625
-        },
-        {
-            "image_name": "image_20241213-155943_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2132568359375,
-            "ImageReward": 1.314787745475769,
-            "ClipScore": 0.390869140625
-        },
-        {
-            "image_name": "image_20241213-155635_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21337890625,
-            "ImageReward": 1.326047658920288,
-            "ClipScore": 0.3828125
-        },
-        {
-            "image_name": "image_20241213-155843_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2032470703125,
-            "ImageReward": 0.5232879519462585,
-            "ClipScore": 0.36279296875
-        },
-        {
-            "image_name": "image_20241213-155956_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.216064453125,
-            "ImageReward": 1.211726427078247,
-            "ClipScore": 0.367431640625
-        },
-        {
-            "image_name": "image_20241213-155736_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.205078125,
-            "ImageReward": 0.9507719278335571,
-            "ClipScore": 0.367919921875
-        },
-        {
-            "image_name": "image_20241213-160037_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2066650390625,
-            "ImageReward": 1.4000588655471802,
-            "ClipScore": 0.35302734375
-        },
-        {
-            "image_name": "image_20241213-155722_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.208251953125,
-            "ImageReward": 0.3408505618572235,
-            "ClipScore": 0.37548828125
-        },
-        {
-            "image_name": "image_20241213-155548_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.208984375,
-            "ImageReward": 1.190708041191101,
-            "ClipScore": 0.37890625
-        },
-        {
-            "image_name": "image_20241213-155655_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21923828125,
-            "ImageReward": 1.3700199127197266,
-            "ClipScore": 0.376220703125
-        },
-        {
-            "image_name": "image_20241213-155709_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.20703125,
-            "ImageReward": 0.7724000811576843,
-            "ClipScore": 0.378173828125
-        },
-        {
-            "image_name": "image_20241213-155849_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.20458984375,
-            "ImageReward": 1.1587985754013062,
-            "ClipScore": 0.373046875
-        },
-        {
-            "image_name": "image_20241213-160057_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2210693359375,
-            "ImageReward": 1.1493149995803833,
-            "ClipScore": 0.38427734375
-        },
-        {
-            "image_name": "image_20241213-155749_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2159423828125,
-            "ImageReward": 1.127131700515747,
-            "ClipScore": 0.380615234375
-        },
-        {
-            "image_name": "image_20241213-155642_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.211181640625,
-            "ImageReward": 1.113520860671997,
-            "ClipScore": 0.3583984375
-        },
-        {
-            "image_name": "image_20241213-155325_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.21826171875,
-            "ImageReward": 1.0776984691619873,
-            "ClipScore": 0.3935546875
-        },
-        {
-            "image_name": "image_20241213-160003_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2103271484375,
-            "ImageReward": 0.7941885590553284,
-            "ClipScore": 0.3681640625
-        },
-        {
-            "image_name": "image_20241213-155816_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.204833984375,
-            "ImageReward": 0.6637759804725647,
-            "ClipScore": 0.390380859375
-        },
-        {
-            "image_name": "image_20241213-155629_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2196044921875,
-            "ImageReward": 1.3540648221969604,
-            "ClipScore": 0.36962890625
-        },
-        {
-            "image_name": "image_20241213-155729_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.208251953125,
-            "ImageReward": 0.5126467943191528,
-            "ClipScore": 0.376953125
-        },
-        {
-            "image_name": "image_20241213-155802_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.213134765625,
-            "ImageReward": 1.1607446670532227,
-            "ClipScore": 0.379638671875
-        },
-        {
-            "image_name": "image_20241213-155622_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.2156982421875,
-            "ImageReward": 1.168985366821289,
-            "ClipScore": 0.3935546875
-        },
-        {
-            "image_name": "image_20241213-155903_000.png",
-            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist.",
-            "hps": 0.20849609375,
-            "ImageReward": 1.1773111820220947,
-            "ClipScore": 0.378173828125
-        }
-    ],
     "sdlora_50_2": [
         {
             "image_name": "im_20241212215926_000_3589583794.png",
@@ -1321,710 +906,6 @@
             "hps": 0.198974609375,
             "ImageReward": 1.3220922946929932,
             "ClipScore": 0.324951171875
-        }
-    ],
-    "sdxllora_50_4": [
-        {
-            "image_name": "image_20241213-160957_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21875,
-            "ImageReward": 1.1150081157684326,
-            "ClipScore": 0.358154296875
-        },
-        {
-            "image_name": "image_20241213-160851_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21484375,
-            "ImageReward": 1.092848539352417,
-            "ClipScore": 0.37353515625
-        },
-        {
-            "image_name": "image_20241213-161230_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2117919921875,
-            "ImageReward": 1.2548437118530273,
-            "ClipScore": 0.36767578125
-        },
-        {
-            "image_name": "image_20241213-160924_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.212646484375,
-            "ImageReward": 1.4083658456802368,
-            "ClipScore": 0.35107421875
-        },
-        {
-            "image_name": "image_20241213-161309_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.218505859375,
-            "ImageReward": 0.9884005188941956,
-            "ClipScore": 0.373046875
-        },
-        {
-            "image_name": "image_20241213-160950_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2130126953125,
-            "ImageReward": 1.1192787885665894,
-            "ClipScore": 0.361083984375
-        },
-        {
-            "image_name": "image_20241213-160844_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2122802734375,
-            "ImageReward": 1.0370004177093506,
-            "ClipScore": 0.351318359375
-        },
-        {
-            "image_name": "image_20241213-161043_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.216552734375,
-            "ImageReward": 1.1275932788848877,
-            "ClipScore": 0.373779296875
-        },
-        {
-            "image_name": "image_20241213-161103_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21337890625,
-            "ImageReward": 1.145490288734436,
-            "ClipScore": 0.357177734375
-        },
-        {
-            "image_name": "image_20241213-160930_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2166748046875,
-            "ImageReward": 0.9047890901565552,
-            "ClipScore": 0.3740234375
-        },
-        {
-            "image_name": "image_20241213-160911_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2117919921875,
-            "ImageReward": 1.134961724281311,
-            "ClipScore": 0.37451171875
-        },
-        {
-            "image_name": "image_20241213-161030_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.20947265625,
-            "ImageReward": 0.8381527066230774,
-            "ClipScore": 0.369873046875
-        },
-        {
-            "image_name": "image_20241213-161203_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2216796875,
-            "ImageReward": 1.25629723072052,
-            "ClipScore": 0.37060546875
-        },
-        {
-            "image_name": "image_20241213-161323_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21923828125,
-            "ImageReward": 1.2100741863250732,
-            "ClipScore": 0.37109375
-        },
-        {
-            "image_name": "image_20241213-160831_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2125244140625,
-            "ImageReward": 1.069223165512085,
-            "ClipScore": 0.353759765625
-        },
-        {
-            "image_name": "image_20241213-161004_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2166748046875,
-            "ImageReward": 1.3170316219329834,
-            "ClipScore": 0.36669921875
-        },
-        {
-            "image_name": "image_20241213-161057_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2156982421875,
-            "ImageReward": 1.372711420059204,
-            "ClipScore": 0.364013671875
-        },
-        {
-            "image_name": "image_20241213-161256_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2161865234375,
-            "ImageReward": 1.1046416759490967,
-            "ClipScore": 0.355224609375
-        },
-        {
-            "image_name": "image_20241213-160944_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2110595703125,
-            "ImageReward": 1.1307281255722046,
-            "ClipScore": 0.358642578125
-        },
-        {
-            "image_name": "image_20241213-160837_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2193603515625,
-            "ImageReward": 1.3618227243423462,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-161249_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.213623046875,
-            "ImageReward": 1.2311309576034546,
-            "ClipScore": 0.372314453125
-        },
-        {
-            "image_name": "image_20241213-161216_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21435546875,
-            "ImageReward": 1.1518914699554443,
-            "ClipScore": 0.35009765625
-        },
-        {
-            "image_name": "image_20241213-160810_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.216064453125,
-            "ImageReward": 1.228132963180542,
-            "ClipScore": 0.364990234375
-        },
-        {
-            "image_name": "image_20241213-161024_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2177734375,
-            "ImageReward": 1.314882755279541,
-            "ClipScore": 0.3623046875
-        },
-        {
-            "image_name": "image_20241213-160857_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2142333984375,
-            "ImageReward": 0.8813914656639099,
-            "ClipScore": 0.354736328125
-        },
-        {
-            "image_name": "image_20241213-160824_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2210693359375,
-            "ImageReward": 1.3023045063018799,
-            "ClipScore": 0.35693359375
-        },
-        {
-            "image_name": "image_20241213-161210_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2115478515625,
-            "ImageReward": 0.9831865429878235,
-            "ClipScore": 0.343994140625
-        },
-        {
-            "image_name": "image_20241213-161329_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.217529296875,
-            "ImageReward": 1.351960301399231,
-            "ClipScore": 0.366943359375
-        },
-        {
-            "image_name": "image_20241213-161236_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2115478515625,
-            "ImageReward": 1.1793233156204224,
-            "ClipScore": 0.341796875
-        },
-        {
-            "image_name": "image_20241213-161123_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21630859375,
-            "ImageReward": 1.2175897359848022,
-            "ClipScore": 0.36767578125
-        },
-        {
-            "image_name": "image_20241213-161143_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2098388671875,
-            "ImageReward": 0.9661063551902771,
-            "ClipScore": 0.346923828125
-        },
-        {
-            "image_name": "image_20241213-161303_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2132568359375,
-            "ImageReward": 1.0555775165557861,
-            "ClipScore": 0.356201171875
-        },
-        {
-            "image_name": "image_20241213-161243_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2098388671875,
-            "ImageReward": 1.080465316772461,
-            "ClipScore": 0.349365234375
-        },
-        {
-            "image_name": "image_20241213-161130_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2125244140625,
-            "ImageReward": 1.1363756656646729,
-            "ClipScore": 0.363037109375
-        },
-        {
-            "image_name": "image_20241213-161316_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2139892578125,
-            "ImageReward": 1.3101866245269775,
-            "ClipScore": 0.365966796875
-        },
-        {
-            "image_name": "image_20241213-160904_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2086181640625,
-            "ImageReward": 0.8876667618751526,
-            "ClipScore": 0.3583984375
-        },
-        {
-            "image_name": "image_20241213-161150_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2122802734375,
-            "ImageReward": 1.236173152923584,
-            "ClipScore": 0.34814453125
-        },
-        {
-            "image_name": "image_20241213-161156_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.213134765625,
-            "ImageReward": 1.0349575281143188,
-            "ClipScore": 0.361572265625
-        },
-        {
-            "image_name": "image_20241213-161336_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.212158203125,
-            "ImageReward": 0.6519015431404114,
-            "ClipScore": 0.342529296875
-        },
-        {
-            "image_name": "image_20241213-161110_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.21435546875,
-            "ImageReward": 1.2024869918823242,
-            "ClipScore": 0.3603515625
-        },
-        {
-            "image_name": "image_20241213-161117_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.212890625,
-            "ImageReward": 1.4513341188430786,
-            "ClipScore": 0.357421875
-        },
-        {
-            "image_name": "image_20241213-160917_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.218505859375,
-            "ImageReward": 1.339827299118042,
-            "ClipScore": 0.376220703125
-        },
-        {
-            "image_name": "image_20241213-161137_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2154541015625,
-            "ImageReward": 0.7296891808509827,
-            "ClipScore": 0.366943359375
-        },
-        {
-            "image_name": "image_20241213-161010_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.208740234375,
-            "ImageReward": 1.2701747417449951,
-            "ClipScore": 0.36083984375
-        },
-        {
-            "image_name": "image_20241213-161223_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2183837890625,
-            "ImageReward": 1.2678481340408325,
-            "ClipScore": 0.3701171875
-        },
-        {
-            "image_name": "image_20241213-160937_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2149658203125,
-            "ImageReward": 1.0842645168304443,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-161037_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.212158203125,
-            "ImageReward": 1.163210153579712,
-            "ClipScore": 0.36328125
-        },
-        {
-            "image_name": "image_20241213-160817_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2135009765625,
-            "ImageReward": 1.0207629203796387,
-            "ClipScore": 0.365234375
-        },
-        {
-            "image_name": "image_20241213-161050_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2122802734375,
-            "ImageReward": 1.2224329710006714,
-            "ClipScore": 0.353271484375
-        },
-        {
-            "image_name": "image_20241213-161017_000.png",
-            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
-            "hps": 0.2183837890625,
-            "ImageReward": 1.1876273155212402,
-            "ClipScore": 0.351318359375
-        }
-    ],
-    "sdxllora_50_2": [
-        {
-            "image_name": "image_20241213-160238_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2205810546875,
-            "ImageReward": 0.10648295283317566,
-            "ClipScore": 0.361572265625
-        },
-        {
-            "image_name": "image_20241213-160451_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.21875,
-            "ImageReward": 0.5919497609138489,
-            "ClipScore": 0.35693359375
-        },
-        {
-            "image_name": "image_20241213-160518_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2254638671875,
-            "ImageReward": 0.9562682509422302,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-160411_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.223876953125,
-            "ImageReward": 0.859649658203125,
-            "ClipScore": 0.364013671875
-        },
-        {
-            "image_name": "image_20241213-160258_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2197265625,
-            "ImageReward": 0.4982477128505707,
-            "ClipScore": 0.3642578125
-        },
-        {
-            "image_name": "image_20241213-160305_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22119140625,
-            "ImageReward": 0.3001202642917633,
-            "ClipScore": 0.36328125
-        },
-        {
-            "image_name": "image_20241213-160637_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.219970703125,
-            "ImageReward": -0.04958208277821541,
-            "ClipScore": 0.34765625
-        },
-        {
-            "image_name": "image_20241213-160152_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2191162109375,
-            "ImageReward": -0.10487224906682968,
-            "ClipScore": 0.359130859375
-        },
-        {
-            "image_name": "image_20241213-160145_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2235107421875,
-            "ImageReward": 1.0066237449645996,
-            "ClipScore": 0.36767578125
-        },
-        {
-            "image_name": "image_20241213-160418_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2191162109375,
-            "ImageReward": 1.0203616619110107,
-            "ClipScore": 0.36376953125
-        },
-        {
-            "image_name": "image_20241213-160444_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2230224609375,
-            "ImageReward": 0.603569746017456,
-            "ClipScore": 0.365234375
-        },
-        {
-            "image_name": "image_20241213-160538_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.217041015625,
-            "ImageReward": 0.8035176992416382,
-            "ClipScore": 0.358642578125
-        },
-        {
-            "image_name": "image_20241213-160511_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2225341796875,
-            "ImageReward": 1.0074716806411743,
-            "ClipScore": 0.366943359375
-        },
-        {
-            "image_name": "image_20241213-160531_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22216796875,
-            "ImageReward": 0.7609517574310303,
-            "ClipScore": 0.357177734375
-        },
-        {
-            "image_name": "image_20241213-160604_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.220947265625,
-            "ImageReward": 1.0131683349609375,
-            "ClipScore": 0.37353515625
-        },
-        {
-            "image_name": "image_20241213-160624_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2191162109375,
-            "ImageReward": 0.7076369524002075,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-160325_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22265625,
-            "ImageReward": 0.8599363565444946,
-            "ClipScore": 0.35888671875
-        },
-        {
-            "image_name": "image_20241213-160424_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2230224609375,
-            "ImageReward": 0.4046224355697632,
-            "ClipScore": 0.365966796875
-        },
-        {
-            "image_name": "image_20241213-160404_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.223876953125,
-            "ImageReward": 1.0729069709777832,
-            "ClipScore": 0.3740234375
-        },
-        {
-            "image_name": "image_20241213-160458_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.219970703125,
-            "ImageReward": 1.2498847246170044,
-            "ClipScore": 0.357666015625
-        },
-        {
-            "image_name": "image_20241213-160125_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.223876953125,
-            "ImageReward": 0.8298662900924683,
-            "ClipScore": 0.356201171875
-        },
-        {
-            "image_name": "image_20241213-160231_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2225341796875,
-            "ImageReward": 1.0890278816223145,
-            "ClipScore": 0.3701171875
-        },
-        {
-            "image_name": "image_20241213-160504_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2239990234375,
-            "ImageReward": 1.0433785915374756,
-            "ClipScore": 0.3662109375
-        },
-        {
-            "image_name": "image_20241213-160551_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2203369140625,
-            "ImageReward": 0.9757606387138367,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-160644_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2247314453125,
-            "ImageReward": 0.9738531708717346,
-            "ClipScore": 0.364501953125
-        },
-        {
-            "image_name": "image_20241213-160211_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2210693359375,
-            "ImageReward": 0.9672862887382507,
-            "ClipScore": 0.365234375
-        },
-        {
-            "image_name": "image_20241213-160431_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2196044921875,
-            "ImageReward": 0.9471290707588196,
-            "ClipScore": 0.36181640625
-        },
-        {
-            "image_name": "image_20241213-160344_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2225341796875,
-            "ImageReward": 0.21468226611614227,
-            "ClipScore": 0.35302734375
-        },
-        {
-            "image_name": "image_20241213-160358_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22705078125,
-            "ImageReward": 1.107796311378479,
-            "ClipScore": 0.364013671875
-        },
-        {
-            "image_name": "image_20241213-160311_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22216796875,
-            "ImageReward": 1.3341281414031982,
-            "ClipScore": 0.364990234375
-        },
-        {
-            "image_name": "image_20241213-160158_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.21826171875,
-            "ImageReward": -0.2567985951900482,
-            "ClipScore": 0.368896484375
-        },
-        {
-            "image_name": "image_20241213-160557_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2265625,
-            "ImageReward": 1.0317747592926025,
-            "ClipScore": 0.368896484375
-        },
-        {
-            "image_name": "image_20241213-160251_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22705078125,
-            "ImageReward": 1.4039230346679688,
-            "ClipScore": 0.363037109375
-        },
-        {
-            "image_name": "image_20241213-160318_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.220458984375,
-            "ImageReward": 0.8725094199180603,
-            "ClipScore": 0.3603515625
-        },
-        {
-            "image_name": "image_20241213-160617_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2210693359375,
-            "ImageReward": 0.9615809917449951,
-            "ClipScore": 0.3662109375
-        },
-        {
-            "image_name": "image_20241213-160631_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2237548828125,
-            "ImageReward": 0.7690829038619995,
-            "ClipScore": 0.372314453125
-        },
-        {
-            "image_name": "image_20241213-160351_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2210693359375,
-            "ImageReward": 0.39046138525009155,
-            "ClipScore": 0.349609375
-        },
-        {
-            "image_name": "image_20241213-160132_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.226806640625,
-            "ImageReward": 0.9847826957702637,
-            "ClipScore": 0.361083984375
-        },
-        {
-            "image_name": "image_20241213-160245_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.22119140625,
-            "ImageReward": -0.9081869721412659,
-            "ClipScore": 0.360595703125
-        },
-        {
-            "image_name": "image_20241213-160218_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2227783203125,
-            "ImageReward": 1.1519404649734497,
-            "ClipScore": 0.36962890625
-        },
-        {
-            "image_name": "image_20241213-160331_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.223388671875,
-            "ImageReward": 0.9515341520309448,
-            "ClipScore": 0.36279296875
-        },
-        {
-            "image_name": "image_20241213-160438_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2252197265625,
-            "ImageReward": 1.0956486463546753,
-            "ClipScore": 0.3623046875
-        },
-        {
-            "image_name": "image_20241213-160338_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.21875,
-            "ImageReward": 1.0802479982376099,
-            "ClipScore": 0.35595703125
-        },
-        {
-            "image_name": "image_20241213-160118_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2225341796875,
-            "ImageReward": 0.4443016052246094,
-            "ClipScore": 0.357421875
-        },
-        {
-            "image_name": "image_20241213-160544_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.219970703125,
-            "ImageReward": 0.9721857309341431,
-            "ClipScore": 0.363037109375
-        },
-        {
-            "image_name": "image_20241213-160225_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.219970703125,
-            "ImageReward": 0.8579739332199097,
-            "ClipScore": 0.354736328125
-        },
-        {
-            "image_name": "image_20241213-160524_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.224365234375,
-            "ImageReward": 0.19288229942321777,
-            "ClipScore": 0.377197265625
-        },
-        {
-            "image_name": "image_20241213-160611_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2191162109375,
-            "ImageReward": 0.18107248842716217,
-            "ClipScore": 0.364013671875
-        },
-        {
-            "image_name": "image_20241213-160138_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2196044921875,
-            "ImageReward": -0.3706223964691162,
-            "ClipScore": 0.3642578125
-        },
-        {
-            "image_name": "image_20241213-160205_000.png",
-            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
-            "hps": 0.2135009765625,
-            "ImageReward": 0.6901804208755493,
-            "ClipScore": 0.362548828125
         }
     ],
     "sdlora_50_3": [
@@ -2638,71 +1519,6 @@
             "hps": 0.1983642578125,
             "ImageReward": 0.7611724734306335,
             "ClipScore": 0.346923828125
-        }
-    ],
-    "sdxllora_50_3": [
-        {
-            "image_name": "image_20241213-160704_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2266845703125,
-            "ImageReward": 0.7280926704406738,
-            "ClipScore": 0.376220703125
-        },
-        {
-            "image_name": "image_20241213-160744_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2242431640625,
-            "ImageReward": 1.804337501525879,
-            "ClipScore": 0.3359375
-        },
-        {
-            "image_name": "image_20241213-160731_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2247314453125,
-            "ImageReward": 1.4994444847106934,
-            "ClipScore": 0.3232421875
-        },
-        {
-            "image_name": "image_20241213-160657_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2252197265625,
-            "ImageReward": 1.6530301570892334,
-            "ClipScore": 0.32177734375
-        },
-        {
-            "image_name": "image_20241213-160717_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2208251953125,
-            "ImageReward": 1.7956421375274658,
-            "ClipScore": 0.321044921875
-        },
-        {
-            "image_name": "image_20241213-160751_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2249755859375,
-            "ImageReward": 1.8439222574234009,
-            "ClipScore": 0.37451171875
-        },
-        {
-            "image_name": "image_20241213-160724_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2259521484375,
-            "ImageReward": 1.8428224325180054,
-            "ClipScore": 0.34375
-        },
-        {
-            "image_name": "image_20241213-160711_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2276611328125,
-            "ImageReward": 1.7829535007476807,
-            "ClipScore": 0.33154296875
-        },
-        {
-            "image_name": "image_20241213-160737_000.png",
-            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
-            "hps": 0.2291259765625,
-            "ImageReward": 1.7756201028823853,
-            "ClipScore": 0.353271484375
         }
     ],
     "SD3lora_40_5": [
@@ -4607,358 +3423,6 @@
             "ClipScore": 0.321533203125
         }
     ],
-    "sdxllora_50_5": [
-        {
-            "image_name": "image_20241213-161851_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2310791015625,
-            "ImageReward": 1.6667200326919556,
-            "ClipScore": 0.392578125
-        },
-        {
-            "image_name": "image_20241213-161711_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2310791015625,
-            "ImageReward": 1.4316898584365845,
-            "ClipScore": 0.3818359375
-        },
-        {
-            "image_name": "image_20241213-161824_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2327880859375,
-            "ImageReward": 1.080884337425232,
-            "ClipScore": 0.39013671875
-        },
-        {
-            "image_name": "image_20241213-161624_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2314453125,
-            "ImageReward": 1.6200408935546875,
-            "ClipScore": 0.400390625
-        },
-        {
-            "image_name": "image_20241213-161644_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.23291015625,
-            "ImageReward": 1.6134966611862183,
-            "ClipScore": 0.39794921875
-        },
-        {
-            "image_name": "image_20241213-161831_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.231201171875,
-            "ImageReward": 1.6383073329925537,
-            "ClipScore": 0.39794921875
-        },
-        {
-            "image_name": "image_20241213-161538_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2235107421875,
-            "ImageReward": 1.6571868658065796,
-            "ClipScore": 0.3896484375
-        },
-        {
-            "image_name": "image_20241213-161718_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2340087890625,
-            "ImageReward": 1.7000535726547241,
-            "ClipScore": 0.3935546875
-        },
-        {
-            "image_name": "image_20241213-161432_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2213134765625,
-            "ImageReward": 1.5917564630508423,
-            "ClipScore": 0.37841796875
-        },
-        {
-            "image_name": "image_20241213-161405_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2283935546875,
-            "ImageReward": 1.389727234840393,
-            "ClipScore": 0.379150390625
-        },
-        {
-            "image_name": "image_20241213-161817_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.228759765625,
-            "ImageReward": 1.6752296686172485,
-            "ClipScore": 0.3759765625
-        },
-        {
-            "image_name": "image_20241213-161358_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2288818359375,
-            "ImageReward": 1.550797462463379,
-            "ClipScore": 0.38720703125
-        },
-        {
-            "image_name": "image_20241213-161558_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.231689453125,
-            "ImageReward": 1.4817479848861694,
-            "ClipScore": 0.3876953125
-        },
-        {
-            "image_name": "image_20241213-161911_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2281494140625,
-            "ImageReward": 1.3181111812591553,
-            "ClipScore": 0.385009765625
-        },
-        {
-            "image_name": "image_20241213-161438_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.22607421875,
-            "ImageReward": 1.3974920511245728,
-            "ClipScore": 0.349853515625
-        },
-        {
-            "image_name": "image_20241213-161412_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.228515625,
-            "ImageReward": 1.7383530139923096,
-            "ClipScore": 0.402099609375
-        },
-        {
-            "image_name": "image_20241213-161451_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.22705078125,
-            "ImageReward": 1.4880200624465942,
-            "ClipScore": 0.4033203125
-        },
-        {
-            "image_name": "image_20241213-161731_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2333984375,
-            "ImageReward": 1.6771856546401978,
-            "ClipScore": 0.39501953125
-        },
-        {
-            "image_name": "image_20241213-161651_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.227783203125,
-            "ImageReward": 1.554688811302185,
-            "ClipScore": 0.388916015625
-        },
-        {
-            "image_name": "image_20241213-161758_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.233154296875,
-            "ImageReward": 1.6264605522155762,
-            "ClipScore": 0.39990234375
-        },
-        {
-            "image_name": "image_20241213-161418_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.23095703125,
-            "ImageReward": 1.685086965560913,
-            "ClipScore": 0.3896484375
-        },
-        {
-            "image_name": "image_20241213-161857_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2283935546875,
-            "ImageReward": 1.3879154920578003,
-            "ClipScore": 0.38916015625
-        },
-        {
-            "image_name": "image_20241213-161531_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2303466796875,
-            "ImageReward": 1.6442694664001465,
-            "ClipScore": 0.392578125
-        },
-        {
-            "image_name": "image_20241213-161618_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2265625,
-            "ImageReward": 1.6813501119613647,
-            "ClipScore": 0.390380859375
-        },
-        {
-            "image_name": "image_20241213-161425_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2314453125,
-            "ImageReward": 1.6031451225280762,
-            "ClipScore": 0.4033203125
-        },
-        {
-            "image_name": "image_20241213-161525_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2283935546875,
-            "ImageReward": 1.4767330884933472,
-            "ClipScore": 0.377197265625
-        },
-        {
-            "image_name": "image_20241213-161638_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2308349609375,
-            "ImageReward": 1.600489616394043,
-            "ClipScore": 0.4013671875
-        },
-        {
-            "image_name": "image_20241213-161811_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2279052734375,
-            "ImageReward": 1.5780678987503052,
-            "ClipScore": 0.3837890625
-        },
-        {
-            "image_name": "image_20241213-161511_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.228759765625,
-            "ImageReward": 1.6502879858016968,
-            "ClipScore": 0.3818359375
-        },
-        {
-            "image_name": "image_20241213-161751_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.225341796875,
-            "ImageReward": 1.5287442207336426,
-            "ClipScore": 0.380859375
-        },
-        {
-            "image_name": "image_20241213-161352_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2301025390625,
-            "ImageReward": 1.3784286975860596,
-            "ClipScore": 0.394287109375
-        },
-        {
-            "image_name": "image_20241213-161458_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2291259765625,
-            "ImageReward": 1.6754225492477417,
-            "ClipScore": 0.3857421875
-        },
-        {
-            "image_name": "image_20241213-161605_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2325439453125,
-            "ImageReward": 1.4490492343902588,
-            "ClipScore": 0.401123046875
-        },
-        {
-            "image_name": "image_20241213-161738_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2249755859375,
-            "ImageReward": 1.5713346004486084,
-            "ClipScore": 0.3994140625
-        },
-        {
-            "image_name": "image_20241213-161904_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2288818359375,
-            "ImageReward": 1.5628026723861694,
-            "ClipScore": 0.382568359375
-        },
-        {
-            "image_name": "image_20241213-161837_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.225341796875,
-            "ImageReward": 1.5963691473007202,
-            "ClipScore": 0.396728515625
-        },
-        {
-            "image_name": "image_20241213-161631_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.229248046875,
-            "ImageReward": 1.753311276435852,
-            "ClipScore": 0.381103515625
-        },
-        {
-            "image_name": "image_20241213-161611_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2265625,
-            "ImageReward": 0.9531450271606445,
-            "ClipScore": 0.39208984375
-        },
-        {
-            "image_name": "image_20241213-161917_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2252197265625,
-            "ImageReward": 1.4394798278808594,
-            "ClipScore": 0.3828125
-        },
-        {
-            "image_name": "image_20241213-161445_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.228271484375,
-            "ImageReward": 1.5353987216949463,
-            "ClipScore": 0.3935546875
-        },
-        {
-            "image_name": "image_20241213-161658_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.229248046875,
-            "ImageReward": 1.598388433456421,
-            "ClipScore": 0.385009765625
-        },
-        {
-            "image_name": "image_20241213-161744_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2344970703125,
-            "ImageReward": 1.4622368812561035,
-            "ClipScore": 0.383056640625
-        },
-        {
-            "image_name": "image_20241213-161804_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2318115234375,
-            "ImageReward": 1.6833012104034424,
-            "ClipScore": 0.386962890625
-        },
-        {
-            "image_name": "image_20241213-161551_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2283935546875,
-            "ImageReward": 1.5910000801086426,
-            "ClipScore": 0.391845703125
-        },
-        {
-            "image_name": "image_20241213-161545_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.23193359375,
-            "ImageReward": 1.5957324504852295,
-            "ClipScore": 0.376708984375
-        },
-        {
-            "image_name": "image_20241213-161505_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2291259765625,
-            "ImageReward": 1.340285301208496,
-            "ClipScore": 0.3857421875
-        },
-        {
-            "image_name": "image_20241213-161518_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.22705078125,
-            "ImageReward": 1.5072729587554932,
-            "ClipScore": 0.388916015625
-        },
-        {
-            "image_name": "image_20241213-161844_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2301025390625,
-            "ImageReward": 1.537036657333374,
-            "ClipScore": 0.403564453125
-        },
-        {
-            "image_name": "image_20241213-161724_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.232177734375,
-            "ImageReward": 1.6487531661987305,
-            "ClipScore": 0.388671875
-        },
-        {
-            "image_name": "image_20241213-161704_000.png",
-            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
-            "hps": 0.2314453125,
-            "ImageReward": 1.7341862916946411,
-            "ClipScore": 0.40087890625
-        }
-    ],
     "SD3lora_40_2": [
         {
             "image_name": "20241212_183059.png",
@@ -6013,6 +4477,1773 @@
             "hps": 0.21337890625,
             "ImageReward": 0.8470282554626465,
             "ClipScore": 0.370849609375
+        }
+    ],
+    "sdxllora_50_5": [
+        {
+            "image_name": "image_20241217-205409_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2161865234375,
+            "ImageReward": 1.4660632610321045,
+            "ClipScore": 0.399169921875
+        },
+        {
+            "image_name": "image_20241217-205341_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.219482421875,
+            "ImageReward": 1.3085768222808838,
+            "ClipScore": 0.397705078125
+        },
+        {
+            "image_name": "image_20241217-204534_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2264404296875,
+            "ImageReward": 1.588062047958374,
+            "ClipScore": 0.3828125
+        },
+        {
+            "image_name": "image_20241217-205355_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.21826171875,
+            "ImageReward": 1.3767848014831543,
+            "ClipScore": 0.37841796875
+        },
+        {
+            "image_name": "image_20241217-205217_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.22021484375,
+            "ImageReward": 1.7329931259155273,
+            "ClipScore": 0.3779296875
+        },
+        {
+            "image_name": "image_20241217-205505_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.220703125,
+            "ImageReward": 1.5725778341293335,
+            "ClipScore": 0.353515625
+        },
+        {
+            "image_name": "image_20241217-204629_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.21826171875,
+            "ImageReward": 1.5765647888183594,
+            "ClipScore": 0.385986328125
+        },
+        {
+            "image_name": "image_20241217-205107_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2181396484375,
+            "ImageReward": 1.5085480213165283,
+            "ClipScore": 0.39794921875
+        },
+        {
+            "image_name": "image_20241217-204453_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2186279296875,
+            "ImageReward": 1.3915743827819824,
+            "ClipScore": 0.39599609375
+        },
+        {
+            "image_name": "image_20241217-205259_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2171630859375,
+            "ImageReward": 1.7158364057540894,
+            "ClipScore": 0.353515625
+        },
+        {
+            "image_name": "image_20241217-205011_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.223876953125,
+            "ImageReward": 1.519436240196228,
+            "ClipScore": 0.37939453125
+        },
+        {
+            "image_name": "image_20241217-205423_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2196044921875,
+            "ImageReward": 1.6204872131347656,
+            "ClipScore": 0.396728515625
+        },
+        {
+            "image_name": "image_20241217-204657_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2166748046875,
+            "ImageReward": 1.035921335220337,
+            "ClipScore": 0.38037109375
+        },
+        {
+            "image_name": "image_20241217-205327_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2171630859375,
+            "ImageReward": 1.2139347791671753,
+            "ClipScore": 0.403076171875
+        },
+        {
+            "image_name": "image_20241217-204710_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.22265625,
+            "ImageReward": 1.5438214540481567,
+            "ClipScore": 0.40087890625
+        },
+        {
+            "image_name": "image_20241217-204916_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2176513671875,
+            "ImageReward": 1.528128743171692,
+            "ClipScore": 0.388427734375
+        },
+        {
+            "image_name": "image_20241217-205519_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.21630859375,
+            "ImageReward": 1.4495490789413452,
+            "ClipScore": 0.392333984375
+        },
+        {
+            "image_name": "image_20241217-204943_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2183837890625,
+            "ImageReward": 1.4667637348175049,
+            "ClipScore": 0.3876953125
+        },
+        {
+            "image_name": "image_20241217-205437_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.22314453125,
+            "ImageReward": 1.5302937030792236,
+            "ClipScore": 0.381103515625
+        },
+        {
+            "image_name": "image_20241217-205053_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2220458984375,
+            "ImageReward": 1.0256074666976929,
+            "ClipScore": 0.376953125
+        },
+        {
+            "image_name": "image_20241217-205547_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2208251953125,
+            "ImageReward": 1.3452680110931396,
+            "ClipScore": 0.377197265625
+        },
+        {
+            "image_name": "image_20241217-205135_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2193603515625,
+            "ImageReward": 1.425077199935913,
+            "ClipScore": 0.378662109375
+        },
+        {
+            "image_name": "image_20241217-204820_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2200927734375,
+            "ImageReward": 1.4039958715438843,
+            "ClipScore": 0.408935546875
+        },
+        {
+            "image_name": "image_20241217-205203_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2191162109375,
+            "ImageReward": 1.3416723012924194,
+            "ClipScore": 0.395751953125
+        },
+        {
+            "image_name": "image_20241217-205451_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2142333984375,
+            "ImageReward": 1.3607786893844604,
+            "ClipScore": 0.3974609375
+        },
+        {
+            "image_name": "image_20241217-205149_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2230224609375,
+            "ImageReward": 1.4388290643692017,
+            "ClipScore": 0.358642578125
+        },
+        {
+            "image_name": "image_20241217-205533_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2174072265625,
+            "ImageReward": 1.4057562351226807,
+            "ClipScore": 0.37646484375
+        },
+        {
+            "image_name": "image_20241217-204834_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.22314453125,
+            "ImageReward": 1.5787168741226196,
+            "ClipScore": 0.38330078125
+        },
+        {
+            "image_name": "image_20241217-204548_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2177734375,
+            "ImageReward": 1.4219309091567993,
+            "ClipScore": 0.39892578125
+        },
+        {
+            "image_name": "image_20241217-205231_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2200927734375,
+            "ImageReward": 1.2839938402175903,
+            "ClipScore": 0.382568359375
+        },
+        {
+            "image_name": "image_20241217-204440_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2186279296875,
+            "ImageReward": 1.343037486076355,
+            "ClipScore": 0.39111328125
+        },
+        {
+            "image_name": "image_20241217-204930_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2216796875,
+            "ImageReward": 1.5956933498382568,
+            "ClipScore": 0.371826171875
+        },
+        {
+            "image_name": "image_20241217-205245_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.218505859375,
+            "ImageReward": 1.091141939163208,
+            "ClipScore": 0.38720703125
+        },
+        {
+            "image_name": "image_20241217-204806_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.218994140625,
+            "ImageReward": 1.202610731124878,
+            "ClipScore": 0.384033203125
+        },
+        {
+            "image_name": "image_20241217-204601_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.217529296875,
+            "ImageReward": 1.492884874343872,
+            "ClipScore": 0.3984375
+        },
+        {
+            "image_name": "image_20241217-205025_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2154541015625,
+            "ImageReward": 0.9456621408462524,
+            "ClipScore": 0.39892578125
+        },
+        {
+            "image_name": "image_20241217-204507_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.219482421875,
+            "ImageReward": 1.2932868003845215,
+            "ClipScore": 0.389404296875
+        },
+        {
+            "image_name": "image_20241217-205039_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.218994140625,
+            "ImageReward": 1.3086427450180054,
+            "ClipScore": 0.3974609375
+        },
+        {
+            "image_name": "image_20241217-204902_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.219482421875,
+            "ImageReward": 1.6343711614608765,
+            "ClipScore": 0.3857421875
+        },
+        {
+            "image_name": "image_20241217-205601_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2177734375,
+            "ImageReward": 1.5398552417755127,
+            "ClipScore": 0.396728515625
+        },
+        {
+            "image_name": "image_20241217-204615_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2125244140625,
+            "ImageReward": 1.461342215538025,
+            "ClipScore": 0.397216796875
+        },
+        {
+            "image_name": "image_20241217-204520_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2220458984375,
+            "ImageReward": 1.1040788888931274,
+            "ClipScore": 0.399658203125
+        },
+        {
+            "image_name": "image_20241217-205313_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2115478515625,
+            "ImageReward": 1.4002100229263306,
+            "ClipScore": 0.387451171875
+        },
+        {
+            "image_name": "image_20241217-205121_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.21142578125,
+            "ImageReward": 1.1139823198318481,
+            "ClipScore": 0.360107421875
+        },
+        {
+            "image_name": "image_20241217-204738_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2178955078125,
+            "ImageReward": 1.5151033401489258,
+            "ClipScore": 0.400390625
+        },
+        {
+            "image_name": "image_20241217-204848_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2169189453125,
+            "ImageReward": 1.6387407779693604,
+            "ClipScore": 0.397216796875
+        },
+        {
+            "image_name": "image_20241217-204752_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2181396484375,
+            "ImageReward": 1.4868096113204956,
+            "ClipScore": 0.390625
+        },
+        {
+            "image_name": "image_20241217-204957_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.218994140625,
+            "ImageReward": 1.614121675491333,
+            "ClipScore": 0.385986328125
+        },
+        {
+            "image_name": "image_20241217-204724_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.21630859375,
+            "ImageReward": 1.2255054712295532,
+            "ClipScore": 0.382568359375
+        },
+        {
+            "image_name": "image_20241217-204643_000.png",
+            "prompt": "chinese_painting, mountains and a waterfall, with towering mountains, flowing water, and a waterfall cascading down into a stream, surrounded by trees and rocks.",
+            "hps": 0.2191162109375,
+            "ImageReward": 1.4318771362304688,
+            "ClipScore": 0.36572265625
+        }
+    ],
+    "sdxllora_50_1": [
+        {
+            "image_name": "image_20241217-200430_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20751953125,
+            "ImageReward": 0.4491034746170044,
+            "ClipScore": 0.370361328125
+        },
+        {
+            "image_name": "image_20241217-200526_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20751953125,
+            "ImageReward": 0.4814562499523163,
+            "ClipScore": 0.371826171875
+        },
+        {
+            "image_name": "image_20241217-200128_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20751953125,
+            "ImageReward": 0.057439886033535004,
+            "ClipScore": 0.369140625
+        },
+        {
+            "image_name": "image_20241217-200540_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2027587890625,
+            "ImageReward": 0.26610511541366577,
+            "ClipScore": 0.33984375
+        },
+        {
+            "image_name": "image_20241217-200114_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2060546875,
+            "ImageReward": -0.38262662291526794,
+            "ClipScore": 0.37060546875
+        },
+        {
+            "image_name": "image_20241217-195813_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.208740234375,
+            "ImageReward": 0.33317941427230835,
+            "ClipScore": 0.377197265625
+        },
+        {
+            "image_name": "image_20241217-200512_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2149658203125,
+            "ImageReward": 0.62629634141922,
+            "ClipScore": 0.380615234375
+        },
+        {
+            "image_name": "image_20241217-200650_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2091064453125,
+            "ImageReward": 0.37198910117149353,
+            "ClipScore": 0.37109375
+        },
+        {
+            "image_name": "image_20241217-200046_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2059326171875,
+            "ImageReward": 0.5789404511451721,
+            "ClipScore": 0.361328125
+        },
+        {
+            "image_name": "image_20241217-195746_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.21044921875,
+            "ImageReward": 0.3162930905818939,
+            "ClipScore": 0.357666015625
+        },
+        {
+            "image_name": "image_20241217-195827_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.21240234375,
+            "ImageReward": 0.641810417175293,
+            "ClipScore": 0.3701171875
+        },
+        {
+            "image_name": "image_20241217-200732_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2081298828125,
+            "ImageReward": 0.8648214340209961,
+            "ClipScore": 0.35791015625
+        },
+        {
+            "image_name": "image_20241217-195854_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2032470703125,
+            "ImageReward": 0.5252166390419006,
+            "ClipScore": 0.3525390625
+        },
+        {
+            "image_name": "image_20241217-200444_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2113037109375,
+            "ImageReward": 0.7530747652053833,
+            "ClipScore": 0.380859375
+        },
+        {
+            "image_name": "image_20241217-200718_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2120361328125,
+            "ImageReward": 0.5770694613456726,
+            "ClipScore": 0.36572265625
+        },
+        {
+            "image_name": "image_20241217-195732_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20751953125,
+            "ImageReward": 0.6709432005882263,
+            "ClipScore": 0.3720703125
+        },
+        {
+            "image_name": "image_20241217-200032_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2037353515625,
+            "ImageReward": 0.6056841611862183,
+            "ClipScore": 0.3408203125
+        },
+        {
+            "image_name": "image_20241217-195908_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20556640625,
+            "ImageReward": 0.5816060304641724,
+            "ClipScore": 0.36181640625
+        },
+        {
+            "image_name": "image_20241217-200348_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2071533203125,
+            "ImageReward": 0.3542101979255676,
+            "ClipScore": 0.3583984375
+        },
+        {
+            "image_name": "image_20241217-200238_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20703125,
+            "ImageReward": 0.5297728180885315,
+            "ClipScore": 0.356201171875
+        },
+        {
+            "image_name": "image_20241217-195639_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2064208984375,
+            "ImageReward": 0.14518751204013824,
+            "ClipScore": 0.3330078125
+        },
+        {
+            "image_name": "image_20241217-195705_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.204345703125,
+            "ImageReward": 0.6962982416152954,
+            "ClipScore": 0.378173828125
+        },
+        {
+            "image_name": "image_20241217-200142_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2083740234375,
+            "ImageReward": 0.7388964295387268,
+            "ClipScore": 0.36083984375
+        },
+        {
+            "image_name": "image_20241217-195936_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2091064453125,
+            "ImageReward": 0.562504231929779,
+            "ClipScore": 0.368408203125
+        },
+        {
+            "image_name": "image_20241217-200210_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.205810546875,
+            "ImageReward": 0.7869932055473328,
+            "ClipScore": 0.37451171875
+        },
+        {
+            "image_name": "image_20241217-195950_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20263671875,
+            "ImageReward": 0.9539247751235962,
+            "ClipScore": 0.36865234375
+        },
+        {
+            "image_name": "image_20241217-195719_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2071533203125,
+            "ImageReward": 0.4876140356063843,
+            "ClipScore": 0.368896484375
+        },
+        {
+            "image_name": "image_20241217-200306_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2081298828125,
+            "ImageReward": 0.46080636978149414,
+            "ClipScore": 0.353515625
+        },
+        {
+            "image_name": "image_20241217-200224_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.201171875,
+            "ImageReward": 0.30895814299583435,
+            "ClipScore": 0.3759765625
+        },
+        {
+            "image_name": "image_20241217-200622_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.21240234375,
+            "ImageReward": 0.5431697368621826,
+            "ClipScore": 0.371826171875
+        },
+        {
+            "image_name": "image_20241217-193959_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2060546875,
+            "ImageReward": 0.4655291736125946,
+            "ClipScore": 0.330078125
+        },
+        {
+            "image_name": "image_20241217-200608_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.202880859375,
+            "ImageReward": 0.5549492239952087,
+            "ClipScore": 0.351806640625
+        },
+        {
+            "image_name": "image_20241217-200252_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.206298828125,
+            "ImageReward": 0.8241560459136963,
+            "ClipScore": 0.373046875
+        },
+        {
+            "image_name": "image_20241217-200156_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2078857421875,
+            "ImageReward": 0.5535852313041687,
+            "ClipScore": 0.37255859375
+        },
+        {
+            "image_name": "image_20241217-195652_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2064208984375,
+            "ImageReward": 0.78764808177948,
+            "ClipScore": 0.377197265625
+        },
+        {
+            "image_name": "image_20241217-200018_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2064208984375,
+            "ImageReward": 0.3950772285461426,
+            "ClipScore": 0.363525390625
+        },
+        {
+            "image_name": "image_20241217-200100_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2117919921875,
+            "ImageReward": -0.02729944698512554,
+            "ClipScore": 0.37158203125
+        },
+        {
+            "image_name": "image_20241217-200636_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2066650390625,
+            "ImageReward": 0.3058367967605591,
+            "ClipScore": 0.3525390625
+        },
+        {
+            "image_name": "image_20241217-195840_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2060546875,
+            "ImageReward": 0.22432692348957062,
+            "ClipScore": 0.36865234375
+        },
+        {
+            "image_name": "image_20241217-200320_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2047119140625,
+            "ImageReward": 0.40008386969566345,
+            "ClipScore": 0.3701171875
+        },
+        {
+            "image_name": "image_20241217-200004_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.208251953125,
+            "ImageReward": 0.6516498923301697,
+            "ClipScore": 0.359375
+        },
+        {
+            "image_name": "image_20241217-200334_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.20458984375,
+            "ImageReward": 0.6885200142860413,
+            "ClipScore": 0.337158203125
+        },
+        {
+            "image_name": "image_20241217-200554_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.1982421875,
+            "ImageReward": -0.23320958018302917,
+            "ClipScore": 0.339599609375
+        },
+        {
+            "image_name": "image_20241217-200704_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2125244140625,
+            "ImageReward": 0.6809700727462769,
+            "ClipScore": 0.3603515625
+        },
+        {
+            "image_name": "image_20241217-200416_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2041015625,
+            "ImageReward": -0.21121035516262054,
+            "ClipScore": 0.34375
+        },
+        {
+            "image_name": "image_20241217-195922_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2021484375,
+            "ImageReward": 0.7463274598121643,
+            "ClipScore": 0.382080078125
+        },
+        {
+            "image_name": "image_20241217-195759_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.206787109375,
+            "ImageReward": 0.9197189211845398,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-200746_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2061767578125,
+            "ImageReward": 0.36375892162323,
+            "ClipScore": 0.370361328125
+        },
+        {
+            "image_name": "image_20241217-200458_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2083740234375,
+            "ImageReward": 0.38947024941444397,
+            "ClipScore": 0.36376953125
+        },
+        {
+            "image_name": "image_20241217-200800_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.2100830078125,
+            "ImageReward": 0.7836620211601257,
+            "ClipScore": 0.356201171875
+        },
+        {
+            "image_name": "image_20241217-200402_000.png",
+            "prompt": "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves.",
+            "hps": 0.203857421875,
+            "ImageReward": 0.5293044447898865,
+            "ClipScore": 0.365478515625
+        }
+    ],
+    "sdxllora_50_4": [
+        {
+            "image_name": "image_20241217-204005_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20849609375,
+            "ImageReward": 0.9384429454803467,
+            "ClipScore": 0.360595703125
+        },
+        {
+            "image_name": "image_20241217-204114_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20849609375,
+            "ImageReward": 1.1413062810897827,
+            "ClipScore": 0.3662109375
+        },
+        {
+            "image_name": "image_20241217-203255_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2174072265625,
+            "ImageReward": 1.1629679203033447,
+            "ClipScore": 0.3603515625
+        },
+        {
+            "image_name": "image_20241217-203241_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20947265625,
+            "ImageReward": 0.9472970366477966,
+            "ClipScore": 0.362548828125
+        },
+        {
+            "image_name": "image_20241217-204319_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2149658203125,
+            "ImageReward": 0.943035900592804,
+            "ClipScore": 0.350830078125
+        },
+        {
+            "image_name": "image_20241217-203541_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.211669921875,
+            "ImageReward": 0.9136595726013184,
+            "ClipScore": 0.3671875
+        },
+        {
+            "image_name": "image_20241217-204210_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2081298828125,
+            "ImageReward": 0.7919901013374329,
+            "ClipScore": 0.36083984375
+        },
+        {
+            "image_name": "image_20241217-203909_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20849609375,
+            "ImageReward": 0.8989723920822144,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-203937_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20947265625,
+            "ImageReward": 0.739467442035675,
+            "ClipScore": 0.360107421875
+        },
+        {
+            "image_name": "image_20241217-203718_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2061767578125,
+            "ImageReward": 0.7541627883911133,
+            "ClipScore": 0.355712890625
+        },
+        {
+            "image_name": "image_20241217-204333_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2088623046875,
+            "ImageReward": 0.92582106590271,
+            "ClipScore": 0.361083984375
+        },
+        {
+            "image_name": "image_20241217-203459_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2078857421875,
+            "ImageReward": 0.7214797735214233,
+            "ClipScore": 0.361083984375
+        },
+        {
+            "image_name": "image_20241217-203417_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2115478515625,
+            "ImageReward": 0.770329475402832,
+            "ClipScore": 0.35888671875
+        },
+        {
+            "image_name": "image_20241217-203309_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.21337890625,
+            "ImageReward": 0.8954895734786987,
+            "ClipScore": 0.377197265625
+        },
+        {
+            "image_name": "image_20241217-204401_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.21142578125,
+            "ImageReward": 0.8131963014602661,
+            "ClipScore": 0.36376953125
+        },
+        {
+            "image_name": "image_20241217-203841_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.212158203125,
+            "ImageReward": 0.7743450403213501,
+            "ClipScore": 0.361572265625
+        },
+        {
+            "image_name": "image_20241217-203403_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2080078125,
+            "ImageReward": 0.882632315158844,
+            "ClipScore": 0.355712890625
+        },
+        {
+            "image_name": "image_20241217-203827_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2105712890625,
+            "ImageReward": 0.9616156816482544,
+            "ClipScore": 0.362548828125
+        },
+        {
+            "image_name": "image_20241217-203336_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2093505859375,
+            "ImageReward": 0.8375371098518372,
+            "ClipScore": 0.365966796875
+        },
+        {
+            "image_name": "image_20241217-204223_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2100830078125,
+            "ImageReward": 0.7849354147911072,
+            "ClipScore": 0.369140625
+        },
+        {
+            "image_name": "image_20241217-203431_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2117919921875,
+            "ImageReward": 1.048604130744934,
+            "ClipScore": 0.37353515625
+        },
+        {
+            "image_name": "image_20241217-203814_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2138671875,
+            "ImageReward": 1.0782536268234253,
+            "ClipScore": 0.360595703125
+        },
+        {
+            "image_name": "image_20241217-203322_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2117919921875,
+            "ImageReward": 0.6760130524635315,
+            "ClipScore": 0.366455078125
+        },
+        {
+            "image_name": "image_20241217-204237_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2078857421875,
+            "ImageReward": 1.0776997804641724,
+            "ClipScore": 0.361572265625
+        },
+        {
+            "image_name": "image_20241217-204018_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2044677734375,
+            "ImageReward": 0.6969882249832153,
+            "ClipScore": 0.350341796875
+        },
+        {
+            "image_name": "image_20241217-204251_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20166015625,
+            "ImageReward": 0.6295590996742249,
+            "ClipScore": 0.352294921875
+        },
+        {
+            "image_name": "image_20241217-203746_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2159423828125,
+            "ImageReward": 1.119372844696045,
+            "ClipScore": 0.35302734375
+        },
+        {
+            "image_name": "image_20241217-203704_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.202392578125,
+            "ImageReward": 0.9034591913223267,
+            "ClipScore": 0.36328125
+        },
+        {
+            "image_name": "image_20241217-203923_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2132568359375,
+            "ImageReward": 1.04103422164917,
+            "ClipScore": 0.363037109375
+        },
+        {
+            "image_name": "image_20241217-203622_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.211181640625,
+            "ImageReward": 0.8342634439468384,
+            "ClipScore": 0.366943359375
+        },
+        {
+            "image_name": "image_20241217-203800_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.20703125,
+            "ImageReward": 0.8052813410758972,
+            "ClipScore": 0.3525390625
+        },
+        {
+            "image_name": "image_20241217-204100_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2071533203125,
+            "ImageReward": 0.7396519184112549,
+            "ClipScore": 0.368896484375
+        },
+        {
+            "image_name": "image_20241217-203732_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.207763671875,
+            "ImageReward": 0.8267003297805786,
+            "ClipScore": 0.35791015625
+        },
+        {
+            "image_name": "image_20241217-203445_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2098388671875,
+            "ImageReward": 0.8796940445899963,
+            "ClipScore": 0.357421875
+        },
+        {
+            "image_name": "image_20241217-203650_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2088623046875,
+            "ImageReward": 0.8812057375907898,
+            "ClipScore": 0.365478515625
+        },
+        {
+            "image_name": "image_20241217-203350_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2110595703125,
+            "ImageReward": 0.8154637813568115,
+            "ClipScore": 0.37158203125
+        },
+        {
+            "image_name": "image_20241217-203513_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.212890625,
+            "ImageReward": 0.7152107357978821,
+            "ClipScore": 0.362060546875
+        },
+        {
+            "image_name": "image_20241217-204347_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.208251953125,
+            "ImageReward": 0.6972182393074036,
+            "ClipScore": 0.373291015625
+        },
+        {
+            "image_name": "image_20241217-204305_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2088623046875,
+            "ImageReward": 1.014432430267334,
+            "ClipScore": 0.340576171875
+        },
+        {
+            "image_name": "image_20241217-203555_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2152099609375,
+            "ImageReward": 1.0848801136016846,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-204032_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2095947265625,
+            "ImageReward": 1.0508052110671997,
+            "ClipScore": 0.3583984375
+        },
+        {
+            "image_name": "image_20241217-204156_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.21142578125,
+            "ImageReward": 0.9666561484336853,
+            "ClipScore": 0.376220703125
+        },
+        {
+            "image_name": "image_20241217-204128_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.206787109375,
+            "ImageReward": 0.7168520092964172,
+            "ClipScore": 0.364990234375
+        },
+        {
+            "image_name": "image_20241217-203527_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2081298828125,
+            "ImageReward": 0.8652362823486328,
+            "ClipScore": 0.36181640625
+        },
+        {
+            "image_name": "image_20241217-203636_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2052001953125,
+            "ImageReward": 0.749713659286499,
+            "ClipScore": 0.34033203125
+        },
+        {
+            "image_name": "image_20241217-204142_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.208251953125,
+            "ImageReward": 0.9374955892562866,
+            "ClipScore": 0.363037109375
+        },
+        {
+            "image_name": "image_20241217-203951_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2064208984375,
+            "ImageReward": 0.6840283274650574,
+            "ClipScore": 0.3583984375
+        },
+        {
+            "image_name": "image_20241217-204046_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.2081298828125,
+            "ImageReward": 0.8740195631980896,
+            "ClipScore": 0.345703125
+        },
+        {
+            "image_name": "image_20241217-203608_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.21240234375,
+            "ImageReward": 1.113030195236206,
+            "ClipScore": 0.370849609375
+        },
+        {
+            "image_name": "image_20241217-203855_000.png",
+            "prompt": "chinese_painting, flowers and birds, with vibrant blossoms and delicate birds perched among the branches.",
+            "hps": 0.206787109375,
+            "ImageReward": 0.8582760691642761,
+            "ClipScore": 0.36279296875
+        }
+    ],
+    "sdxllora_50_2": [
+        {
+            "image_name": "image_20241217-201553_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.21142578125,
+            "ImageReward": 1.175854206085205,
+            "ClipScore": 0.35986328125
+        },
+        {
+            "image_name": "image_20241217-201043_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2113037109375,
+            "ImageReward": 1.2307523488998413,
+            "ClipScore": 0.347900390625
+        },
+        {
+            "image_name": "image_20241217-200920_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2122802734375,
+            "ImageReward": 1.36430823802948,
+            "ClipScore": 0.36279296875
+        },
+        {
+            "image_name": "image_20241217-201207_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2127685546875,
+            "ImageReward": 1.2189663648605347,
+            "ClipScore": 0.368896484375
+        },
+        {
+            "image_name": "image_20241217-201331_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.21337890625,
+            "ImageReward": 1.5637702941894531,
+            "ClipScore": 0.361328125
+        },
+        {
+            "image_name": "image_20241217-200839_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2144775390625,
+            "ImageReward": 1.1854686737060547,
+            "ClipScore": 0.3662109375
+        },
+        {
+            "image_name": "image_20241217-201607_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2115478515625,
+            "ImageReward": 0.2754698693752289,
+            "ClipScore": 0.369873046875
+        },
+        {
+            "image_name": "image_20241217-201111_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212158203125,
+            "ImageReward": 1.4791992902755737,
+            "ClipScore": 0.366943359375
+        },
+        {
+            "image_name": "image_20241217-201015_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2119140625,
+            "ImageReward": 1.2835434675216675,
+            "ClipScore": 0.373291015625
+        },
+        {
+            "image_name": "image_20241217-201511_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212890625,
+            "ImageReward": 1.264952301979065,
+            "ClipScore": 0.38232421875
+        },
+        {
+            "image_name": "image_20241217-201951_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212646484375,
+            "ImageReward": 1.419433355331421,
+            "ClipScore": 0.373046875
+        },
+        {
+            "image_name": "image_20241217-201855_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2142333984375,
+            "ImageReward": 1.340476393699646,
+            "ClipScore": 0.374755859375
+        },
+        {
+            "image_name": "image_20241217-202005_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.21435546875,
+            "ImageReward": 1.3632678985595703,
+            "ClipScore": 0.37158203125
+        },
+        {
+            "image_name": "image_20241217-201635_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2138671875,
+            "ImageReward": 1.6313117742538452,
+            "ClipScore": 0.353759765625
+        },
+        {
+            "image_name": "image_20241217-200852_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2159423828125,
+            "ImageReward": 1.4216840267181396,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-200947_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.209716796875,
+            "ImageReward": 1.440499186515808,
+            "ClipScore": 0.366455078125
+        },
+        {
+            "image_name": "image_20241217-201813_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.213623046875,
+            "ImageReward": 0.44481655955314636,
+            "ClipScore": 0.361083984375
+        },
+        {
+            "image_name": "image_20241217-201841_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2076416015625,
+            "ImageReward": 1.2063610553741455,
+            "ClipScore": 0.365966796875
+        },
+        {
+            "image_name": "image_20241217-201317_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.217041015625,
+            "ImageReward": 1.5163522958755493,
+            "ClipScore": 0.364501953125
+        },
+        {
+            "image_name": "image_20241217-201621_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2122802734375,
+            "ImageReward": 1.4310672283172607,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-201249_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.215576171875,
+            "ImageReward": 1.4183241128921509,
+            "ClipScore": 0.360107421875
+        },
+        {
+            "image_name": "image_20241217-201827_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2105712890625,
+            "ImageReward": 1.2183194160461426,
+            "ClipScore": 0.33984375
+        },
+        {
+            "image_name": "image_20241217-201303_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.20263671875,
+            "ImageReward": 1.137967824935913,
+            "ClipScore": 0.354248046875
+        },
+        {
+            "image_name": "image_20241217-201443_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.213134765625,
+            "ImageReward": 1.2550969123840332,
+            "ClipScore": 0.3740234375
+        },
+        {
+            "image_name": "image_20241217-201731_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2119140625,
+            "ImageReward": 1.5816553831100464,
+            "ClipScore": 0.374755859375
+        },
+        {
+            "image_name": "image_20241217-201001_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2130126953125,
+            "ImageReward": 1.5000648498535156,
+            "ClipScore": 0.360107421875
+        },
+        {
+            "image_name": "image_20241217-201415_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2213134765625,
+            "ImageReward": 1.2396100759506226,
+            "ClipScore": 0.371337890625
+        },
+        {
+            "image_name": "image_20241217-201139_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2052001953125,
+            "ImageReward": 1.238100528717041,
+            "ClipScore": 0.35302734375
+        },
+        {
+            "image_name": "image_20241217-201717_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2132568359375,
+            "ImageReward": 1.2385599613189697,
+            "ClipScore": 0.35986328125
+        },
+        {
+            "image_name": "image_20241217-201937_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212646484375,
+            "ImageReward": 1.2119711637496948,
+            "ClipScore": 0.380615234375
+        },
+        {
+            "image_name": "image_20241217-200934_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2120361328125,
+            "ImageReward": 1.165084958076477,
+            "ClipScore": 0.357177734375
+        },
+        {
+            "image_name": "image_20241217-201923_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2156982421875,
+            "ImageReward": 1.0150237083435059,
+            "ClipScore": 0.371826171875
+        },
+        {
+            "image_name": "image_20241217-201029_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2122802734375,
+            "ImageReward": 1.157934546470642,
+            "ClipScore": 0.376953125
+        },
+        {
+            "image_name": "image_20241217-201525_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.220458984375,
+            "ImageReward": 1.540313482284546,
+            "ClipScore": 0.36376953125
+        },
+        {
+            "image_name": "image_20241217-201745_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.210205078125,
+            "ImageReward": 1.4296412467956543,
+            "ClipScore": 0.35107421875
+        },
+        {
+            "image_name": "image_20241217-201909_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.20947265625,
+            "ImageReward": 1.018546462059021,
+            "ClipScore": 0.376220703125
+        },
+        {
+            "image_name": "image_20241217-200906_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2086181640625,
+            "ImageReward": 1.3974486589431763,
+            "ClipScore": 0.378173828125
+        },
+        {
+            "image_name": "image_20241217-201703_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212646484375,
+            "ImageReward": 1.4153482913970947,
+            "ClipScore": 0.37060546875
+        },
+        {
+            "image_name": "image_20241217-201221_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.21435546875,
+            "ImageReward": 1.5072168111801147,
+            "ClipScore": 0.37939453125
+        },
+        {
+            "image_name": "image_20241217-201759_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.216796875,
+            "ImageReward": 1.5406463146209717,
+            "ClipScore": 0.377685546875
+        },
+        {
+            "image_name": "image_20241217-201539_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2144775390625,
+            "ImageReward": 1.3359416723251343,
+            "ClipScore": 0.35986328125
+        },
+        {
+            "image_name": "image_20241217-201649_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.212158203125,
+            "ImageReward": 1.3190925121307373,
+            "ClipScore": 0.373046875
+        },
+        {
+            "image_name": "image_20241217-201235_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.211669921875,
+            "ImageReward": 0.724121630191803,
+            "ClipScore": 0.358642578125
+        },
+        {
+            "image_name": "image_20241217-201457_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.215576171875,
+            "ImageReward": 1.361361026763916,
+            "ClipScore": 0.338623046875
+        },
+        {
+            "image_name": "image_20241217-201345_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2122802734375,
+            "ImageReward": 1.324205994606018,
+            "ClipScore": 0.3642578125
+        },
+        {
+            "image_name": "image_20241217-201429_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.21240234375,
+            "ImageReward": 1.3291504383087158,
+            "ClipScore": 0.343505859375
+        },
+        {
+            "image_name": "image_20241217-201057_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.210693359375,
+            "ImageReward": 1.3075804710388184,
+            "ClipScore": 0.36376953125
+        },
+        {
+            "image_name": "image_20241217-201125_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.2091064453125,
+            "ImageReward": 1.5337395668029785,
+            "ClipScore": 0.366943359375
+        },
+        {
+            "image_name": "image_20241217-201359_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.217041015625,
+            "ImageReward": 1.3125665187835693,
+            "ClipScore": 0.371826171875
+        },
+        {
+            "image_name": "image_20241217-201153_000.png",
+            "prompt": "chinese_painting, mountains and rivers, with towering peaks, flowing water, and scattered trees.",
+            "hps": 0.213134765625,
+            "ImageReward": 1.3424222469329834,
+            "ClipScore": 0.364990234375
+        }
+    ],
+    "sdxllora_50_3": [
+        {
+            "image_name": "image_20241217-203026_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2249755859375,
+            "ImageReward": 0.4781745672225952,
+            "ClipScore": 0.37451171875
+        },
+        {
+            "image_name": "image_20241217-203149_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2249755859375,
+            "ImageReward": 0.6370655298233032,
+            "ClipScore": 0.33984375
+        },
+        {
+            "image_name": "image_20241217-203053_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.21826171875,
+            "ImageReward": 1.2289049625396729,
+            "ClipScore": 0.3486328125
+        },
+        {
+            "image_name": "image_20241217-202328_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22412109375,
+            "ImageReward": 0.8165386915206909,
+            "ClipScore": 0.357177734375
+        },
+        {
+            "image_name": "image_20241217-202657_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2174072265625,
+            "ImageReward": 0.2777251899242401,
+            "ClipScore": 0.388916015625
+        },
+        {
+            "image_name": "image_20241217-202739_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.221435546875,
+            "ImageReward": 0.539826512336731,
+            "ClipScore": 0.388427734375
+        },
+        {
+            "image_name": "image_20241217-202424_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2169189453125,
+            "ImageReward": 0.22104866802692413,
+            "ClipScore": 0.3369140625
+        },
+        {
+            "image_name": "image_20241217-202124_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.212158203125,
+            "ImageReward": 0.6299524903297424,
+            "ClipScore": 0.3203125
+        },
+        {
+            "image_name": "image_20241217-202219_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2208251953125,
+            "ImageReward": -0.031362105160951614,
+            "ClipScore": 0.368896484375
+        },
+        {
+            "image_name": "image_20241217-203135_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2203369140625,
+            "ImageReward": 0.9751427173614502,
+            "ClipScore": 0.333740234375
+        },
+        {
+            "image_name": "image_20241217-203203_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2216796875,
+            "ImageReward": 0.3117702305316925,
+            "ClipScore": 0.354248046875
+        },
+        {
+            "image_name": "image_20241217-202958_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.219482421875,
+            "ImageReward": 0.40864285826683044,
+            "ClipScore": 0.353515625
+        },
+        {
+            "image_name": "image_20241217-202356_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2200927734375,
+            "ImageReward": 1.0875011682510376,
+            "ClipScore": 0.359130859375
+        },
+        {
+            "image_name": "image_20241217-202315_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2186279296875,
+            "ImageReward": -0.5068545937538147,
+            "ClipScore": 0.331787109375
+        },
+        {
+            "image_name": "image_20241217-202821_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.222900390625,
+            "ImageReward": -0.36445358395576477,
+            "ClipScore": 0.351806640625
+        },
+        {
+            "image_name": "image_20241217-202601_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2197265625,
+            "ImageReward": -0.13924822211265564,
+            "ClipScore": 0.341552734375
+        },
+        {
+            "image_name": "image_20241217-202711_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2244873046875,
+            "ImageReward": 0.2799619436264038,
+            "ClipScore": 0.361083984375
+        },
+        {
+            "image_name": "image_20241217-202043_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2244873046875,
+            "ImageReward": 0.3096039295196533,
+            "ClipScore": 0.36279296875
+        },
+        {
+            "image_name": "image_20241217-202834_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2237548828125,
+            "ImageReward": 0.08376465737819672,
+            "ClipScore": 0.357421875
+        },
+        {
+            "image_name": "image_20241217-202138_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2205810546875,
+            "ImageReward": 0.6393342614173889,
+            "ClipScore": 0.3603515625
+        },
+        {
+            "image_name": "image_20241217-203012_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2281494140625,
+            "ImageReward": -0.4660755395889282,
+            "ClipScore": 0.302490234375
+        },
+        {
+            "image_name": "image_20241217-202110_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2191162109375,
+            "ImageReward": -0.146783247590065,
+            "ClipScore": 0.355712890625
+        },
+        {
+            "image_name": "image_20241217-202438_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22021484375,
+            "ImageReward": 0.47934868931770325,
+            "ClipScore": 0.36767578125
+        },
+        {
+            "image_name": "image_20241217-202506_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2205810546875,
+            "ImageReward": -0.012281185016036034,
+            "ClipScore": 0.36865234375
+        },
+        {
+            "image_name": "image_20241217-202807_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2183837890625,
+            "ImageReward": 0.3470016121864319,
+            "ClipScore": 0.363037109375
+        },
+        {
+            "image_name": "image_20241217-202452_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2236328125,
+            "ImageReward": 0.5534773468971252,
+            "ClipScore": 0.362060546875
+        },
+        {
+            "image_name": "image_20241217-202247_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2188720703125,
+            "ImageReward": 0.7727521061897278,
+            "ClipScore": 0.36474609375
+        },
+        {
+            "image_name": "image_20241217-202944_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2171630859375,
+            "ImageReward": -0.44214683771133423,
+            "ClipScore": 0.3466796875
+        },
+        {
+            "image_name": "image_20241217-202643_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22021484375,
+            "ImageReward": -0.17127947509288788,
+            "ClipScore": 0.340087890625
+        },
+        {
+            "image_name": "image_20241217-202301_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.219970703125,
+            "ImageReward": -0.47604796290397644,
+            "ClipScore": 0.3466796875
+        },
+        {
+            "image_name": "image_20241217-202410_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.217529296875,
+            "ImageReward": 1.1201398372650146,
+            "ClipScore": 0.365478515625
+        },
+        {
+            "image_name": "image_20241217-202152_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2197265625,
+            "ImageReward": 0.19147051870822906,
+            "ClipScore": 0.348876953125
+        },
+        {
+            "image_name": "image_20241217-202057_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22119140625,
+            "ImageReward": 0.8853041529655457,
+            "ClipScore": 0.362060546875
+        },
+        {
+            "image_name": "image_20241217-202342_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22021484375,
+            "ImageReward": -0.08145496249198914,
+            "ClipScore": 0.355224609375
+        },
+        {
+            "image_name": "image_20241217-202520_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22314453125,
+            "ImageReward": 1.0599095821380615,
+            "ClipScore": 0.35546875
+        },
+        {
+            "image_name": "image_20241217-202753_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2218017578125,
+            "ImageReward": 0.6575914025306702,
+            "ClipScore": 0.359619140625
+        },
+        {
+            "image_name": "image_20241217-202233_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.220703125,
+            "ImageReward": 0.5202632546424866,
+            "ClipScore": 0.33837890625
+        },
+        {
+            "image_name": "image_20241217-202629_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2218017578125,
+            "ImageReward": 0.3101470470428467,
+            "ClipScore": 0.34716796875
+        },
+        {
+            "image_name": "image_20241217-203121_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2203369140625,
+            "ImageReward": -0.5622537732124329,
+            "ClipScore": 0.361328125
+        },
+        {
+            "image_name": "image_20241217-202548_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2236328125,
+            "ImageReward": 1.2226319313049316,
+            "ClipScore": 0.370361328125
+        },
+        {
+            "image_name": "image_20241217-203107_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2181396484375,
+            "ImageReward": -0.15412366390228271,
+            "ClipScore": 0.3671875
+        },
+        {
+            "image_name": "image_20241217-202902_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22021484375,
+            "ImageReward": 0.2804887592792511,
+            "ClipScore": 0.347412109375
+        },
+        {
+            "image_name": "image_20241217-202848_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2218017578125,
+            "ImageReward": -0.26459357142448425,
+            "ClipScore": 0.35302734375
+        },
+        {
+            "image_name": "image_20241217-202930_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2237548828125,
+            "ImageReward": 1.0773314237594604,
+            "ClipScore": 0.36279296875
+        },
+        {
+            "image_name": "image_20241217-202205_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.222900390625,
+            "ImageReward": 0.4843448996543884,
+            "ClipScore": 0.366455078125
+        },
+        {
+            "image_name": "image_20241217-202534_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.216552734375,
+            "ImageReward": 0.35331404209136963,
+            "ClipScore": 0.392822265625
+        },
+        {
+            "image_name": "image_20241217-203040_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.213134765625,
+            "ImageReward": 1.0325907468795776,
+            "ClipScore": 0.363525390625
+        },
+        {
+            "image_name": "image_20241217-202916_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.22314453125,
+            "ImageReward": 0.8584505915641785,
+            "ClipScore": 0.362060546875
+        },
+        {
+            "image_name": "image_20241217-202615_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2147216796875,
+            "ImageReward": 0.023881034925580025,
+            "ClipScore": 0.349365234375
+        },
+        {
+            "image_name": "image_20241217-202725_000.png",
+            "prompt": "chinese_painting, a tiger, bold brushstrokes, standing in a natural setting surrounded by rocks and tall grass.",
+            "hps": 0.2171630859375,
+            "ImageReward": -0.2980618476867676,
+            "ClipScore": 0.31396484375
         }
     ]
 }
