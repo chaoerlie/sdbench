@@ -39,7 +39,7 @@ def calculate_PickScore(image_path, prompt, device="cuda"):
     return probs.cpu().item()
 
 if __name__ == "__main__":
-    image_path = "/home/ps/sdbench/outputs/fluxlora_30_1/20241211_164222_1.png"
+    image_path = "/home/ps/sdbench/outputs/20241113_152203.png"
     prompt = "chinese_painting, lotus flowers, with soft brushstrokes showing the flowers floating on a calm pond, surrounded by green leaves and some mist."
     score = calculate_PickScore(image_path, prompt)
     print(f"PickScore: {score}")
