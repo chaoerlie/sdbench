@@ -104,7 +104,7 @@ batch_size = 1                               # Batch size
     Used to assign labels to the images for classification. The `class_tokens` defines the category labels for training.
 5. **Repetition Count**  
     Specifies how many times each image (and regularization image, if used) should be repeated in training. Detailed logic will be explained below.
-#### About Repetition Count
+##### About Repetition Count
 
 Repetition count is used to adjust the ratio of regularization images to training images. Since there are usually more regularization images than training images, the training image repetition count should be adjusted to ensure a 1:1 ratio of training images to regularization images.
 **Formula:**
