@@ -155,21 +155,15 @@ logging_dir = "train/logs"
 ```
 For specific training methods, the parameters might differ. Please refer to `configs/train_lora.toml` for more details.
 
-## Models Included
+## Model Zoo
 
-- **Flux**: A model based on state-of-the-art diffusion techniques, optimized for generating high-quality Chinese paintings.
-- **SD3**: A custom diffusion model built specifically for the generation of stylized images.
+
+- **Flux**: Flux is a series of text-to-image generation models based on diffusion transformers proposed by [BlackForestLabs](https://blackforestlabs.ai/author/blackforestlabs/)
+- **SD3**: Stable Diffusion 3 (SD3) was proposed in [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206.pdf)
+- **SDXL**: Stable Diffusion XL (SDXL) was proposed in [SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis](https://huggingface.co/papers/2307.01952)
+- **SD1.5**: Stable Diffusion is a text-to-image latent diffusion model created by the researchers and engineers from [CompVis](https://github.com/CompVis), [Stability AI](https://stability.ai/) and [LAION](https://laion.ai/). Latent diffusion applies the diffusion process over a lower dimensional latent space to reduce memory and compute complexity. This specific type of diffusion model was proposed in [High-Resolution Image Synthesis with Latent Diffusion Models](https://huggingface.co/papers/2112.10752).
 
 ## Customization
 
 - Adjust the model architecture and parameters by modifying the `configs/config.toml` or the training script.
 - Customize the generation pipeline by modify the source code
-
-
-## Contributing
-
-Feel free to open issues or submit pull requests. We welcome any contributions to improve the models or the benchmark!
-
-## License
-
-This project is licensed under the MIT License.
