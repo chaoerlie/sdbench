@@ -33,9 +33,7 @@ This repository provides a benchmark for image generation using diffusion models
     ``` bash
     pip install -r requirements.txt
     ```
-## Usage
-
-### Inference
+## Inference
 
 1. **Console-based generation**: Use the provided scripts for generating images from the command line:
 
@@ -57,9 +55,9 @@ This repository provides a benchmark for image generation using diffusion models
 
     It will automatically read the parameter information from `configs/inference.toml` file and run the inference code
 
-### Training
+## Training
 
-#### Preparing Training Data
+### Preparing Training Data
 
 Prepare the training image files in any folder (multiple folders are also supported). Supported file formats include `.png`, `.jpg`, `.jpeg`, `.webp`, and `.bmp`. Usually, no preprocessing like resizing is needed.
 
@@ -70,7 +68,7 @@ Prepare the training image files in any folder (multiple folders are also suppor
 
 When training, you need to organize and specify the image data to be used for model training. Depending on the number of training data, training objectives, and whether image captions are provided, you can choose from several ways to specify the training data.
 
-#### Dataset Configuration File
+### Dataset Configuration File
 
 Create a text file and change its extension to `.toml`. For example, you can describe the dataset configuration file as follows:
 
@@ -104,19 +102,17 @@ batch_size = 1                               # Batch size
     Used to assign labels to the images for classification. The `class_tokens` defines the category labels for training.
 5. **Repetition Count**  
     Specifies how many times each image (and regularization image, if used) should be repeated in training. Detailed logic will be explained below.
-##### About Repetition Count
 
+**About Repetition Count**
 Repetition count is used to adjust the ratio of regularization images to training images. Since there are usually more regularization images than training images, the training image repetition count should be adjusted to ensure a 1:1 ratio of training images to regularization images.
 **Formula:**
 `Training Image Repeats × Number of Training Images ≥ Regularization Image Repeats × Number of Regularization Images
 One epoch of training data is the sum of "Training Image Repeats × Number of Training Images". If there are more regularization images than this, the excess regularization images will not be used.
-
-####  Training
+###  Training
 
 Use the `train.py` script for training.
 Run with the following command:
 `python train.py`
-
 The parameters will be read from the `train_lora.toml` file.
 Below is an example for the `flux` section in the `train_lora.toml` file:
 ``` toml
@@ -158,7 +154,6 @@ logging_dir = "train/logs"
 
 ```
 For specific training methods, the parameters might differ. Please refer to `configs/train_lora.toml` for more details.
-    
 
 ## Models Included
 
