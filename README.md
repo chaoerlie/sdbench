@@ -1,4 +1,4 @@
-# Stable Diffusion China Painting Benchmark
+# Stable Diffusion Chinese Painting Benchmark 111
 
 This repository provides a benchmark for image generation using diffusion models, specifically designed for **Chinese painting generation**. The benchmark includes multiple diffusion-based models like Flux, SD3, SDXL and others. It offers various generation methods, such as console-based generation, bash script generation, and config file-based generation. The repository also includes full **inference and training code**, allowing users to customize parameters and model architectures for tailored results. Additionally, we provide a series of **evaluation metrics** specifically designed to assess the performance of models in generating Chinese paintings.
 
