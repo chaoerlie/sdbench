@@ -18,16 +18,16 @@ accelerate launch --mixed_precision bf16 --num_cpu_threads_per_process 1 modules
   --network_dim 4 \
   --optimizer_type adamw8bit \
   --sample_prompts="chinese painting" \
-  --sample_every_n_steps="500" \
+  --sample_every_n_steps="1000" \
   --learning_rate 8e-4 \
   --cache_text_encoder_outputs \
   --cache_text_encoder_outputs_to_disk \
   --fp8_base \
   --highvram \
-  --max_train_epochs 30 \
-  --save_every_n_epochs 5 \
+  --max_train_epochs 50 \
+  --save_every_n_epochs 10 \
   --dataset_config "configs/datasets.toml" \
-  --output_dir "train/output/flux" \
+  --output_dir "train/output/flux/chinese_painting_1_7" \
   --output_name "chinese_painting" \
   --timestep_sampling shift \
   --discrete_flow_shift 3.1582 \

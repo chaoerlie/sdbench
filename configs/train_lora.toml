@@ -1,11 +1,11 @@
 ##### 模型选择: default: SD;  SD3;  flux
-model_type = "SD3"
+model_type = "flux"
 
 #------------------------------------- if modelType == SD -------------------------------------
 [SD]
 pretrained_model_name_or_path = "models/1.ckpt"
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output"
+output_dir = "train/output/sdlora"
 output_name = "chinese_painting"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
@@ -18,14 +18,14 @@ cache_latents = true
 gradient_checkpointing = true
 save_every_n_epochs=50
 network_module="networks.lora"
-logging_dir = "train/logs"
+logging_dir = "train/output/sdxl/logs"
 
 #------------------------------------- if modelType == SDXL -------------------------------------
 [SDXL]
 pretrained_model_name_or_path = "models/sd_xl.safetensors"
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output"
-output_name = "chinese_1"
+output_dir = "train/output/sdxl"
+output_name = "chinese_painting"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
 max_train_epochs = 50
@@ -39,7 +39,7 @@ cache_text_encoder_outputs = true
 save_every_n_epochs=5
 network_train_unet_only = true
 network_module="networks.lora"
-logging_dir = "train/logs"
+logging_dir = "train/output/sdxl/logs"
 
 
 #------------------------------------- if modelType == flux -------------------------------------
@@ -61,16 +61,16 @@ network_module = "networks.lora_flux"
 network_dim = 4
 optimizer_type = "adamw8bit"
 sample_prompts = "chinese painting"
-sample_every_n_steps="500"
+sample_every_n_steps="1000"
 learning_rate = 8e-4
 cache_text_encoder_outputs = true
 cache_text_encoder_outputs_to_disk = true
 fp8_base = true
 highvram = true
-max_train_epochs = 30
+max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/flux"
+output_dir = "train/output/flux/chinese_painting_new"
 output_name = "chinese_painting"
 timestep_sampling = "shift"
 discrete_flow_shift = 3.1582
@@ -108,9 +108,9 @@ highvram = true
 max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
-output_dir = "train/sd3/models"
+output_dir = "train/output/sd3/models"
 output_name = "chinese_painting"
-logging_dir = "train/sd3/logs"
+logging_dir = "train/outputs/sd3/logs"
 sample_prompts = "chinese painting"
 sample_every_n_steps="500"
 
