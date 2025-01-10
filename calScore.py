@@ -81,7 +81,7 @@ def compute_and_save_scores(output_dir, prompt_file, output_json):
                 'prompt': prompt,
                 'hps': hps,
                 'ImageReward': rewards,
-                'ClipScore': clip_score
+                'ClipScore': clip_score,
             })
         
         # 保存当前文件夹的结果到结果字典中
@@ -95,7 +95,7 @@ def compute_and_save_scores(output_dir, prompt_file, output_json):
     print(f"All results saved to {output_json}")
 
 if __name__ == "__main__":
-    output_json = "/home/ps/sdbench/outputs/results.json"
-    output_dir = "/home/ps/sdbench/outputs"
+    output_json = "/home/ps/sdbench/results.json"
+    output_dir = "/home/ps/sdbench/result"
     prompt_file = "/home/ps/sdbench/outputs/prompt.txt"
     compute_and_save_scores(output_dir, prompt_file, output_json)
