@@ -1,5 +1,5 @@
 ##### 模型选择: default: SD;  SD3;  flux
-model_type = "SDXL"
+model_type = "SD3"
 
 #------------------------------------- if modelType == SD -------------------------------------
 [SD]
@@ -25,7 +25,7 @@ logging_dir = "train/logs"
 pretrained_model_name_or_path = "models/sd_xl.safetensors"
 dataset_config = "configs/datasets.toml"
 output_dir = "train/output"
-output_name = "chinese"
+output_name = "chinese_1"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
 max_train_epochs = 50
@@ -105,12 +105,13 @@ cache_text_encoder_outputs = true
 cache_text_encoder_outputs_to_disk = true
 fp8_base = true
 highvram = true
-max_train_epochs = 40
+max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
-output_dir = "outputs/sd3"
+output_dir = "train/sd3/models"
 output_name = "chinese_painting"
-logging_dir = "train/logs"
-sample_prompts = "chinese_painting"
+logging_dir = "train/sd3/logs"
+sample_prompts = "chinese painting"
 sample_every_n_steps="500"
+
 
