@@ -105,7 +105,7 @@ cache_text_encoder_outputs = true
 cache_text_encoder_outputs_to_disk = true
 fp8_base = true
 highvram = true
-max_train_epochs = 40
+max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
 output_dir = "train/output/sd3/models"
@@ -113,4 +113,5 @@ output_name = "chinese_painting"
 logging_dir = "train/outputs/sd3/logs"
 sample_prompts = "chinese painting"
 sample_every_n_steps="500"
+
 
