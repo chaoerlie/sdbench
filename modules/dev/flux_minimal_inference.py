@@ -745,19 +745,21 @@ if __name__ == "__main__":
             print("index----------------------------------------------------------------------------------------,",
                   index)
             generate_image(
-                model,
-                clip_l,
-                t5xxl,
-                ae,
-                args.prompt,
-                args.seed,
-                args.width,
-                args.height,
-                args.steps,
-                args.guidance,
-                args.negative_prompt,
-                args.cfg_scale,
-            )
+            model,
+            clip_l,
+            t5xxl,
+            ae,
+            args.prompt,
+            args.seed,
+            args.width,
+            args.height,
+            args.steps,
+            args.guidance,
+            args.negative_prompt,
+            args.cfg_scale,
+            args, clip_l_dtype, dtype, device, t5xxl_dtype, tokenize_strategy, accelerator, encoding_strategy, is_schnell, flux_dtype, ae_dtype
+
+        )
     else:
         # loop for interactive
         width = target_width
