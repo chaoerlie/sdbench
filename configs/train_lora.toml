@@ -77,7 +77,7 @@ discrete_flow_shift = 3.1582
 model_prediction_type =  "raw"
 guidance_scale = 1
 loss_type = "l2"
-logging_dir = "train/logs"
+logging_dir = "train/output/flux/logs"
 
 
 #------------------------------------- if modelType == SD3 -------------------------------------

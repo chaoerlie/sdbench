@@ -10,7 +10,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import re
-from library.utils import setup_logging
+from library2.utils import setup_logging
 
 setup_logging()
 import logging
