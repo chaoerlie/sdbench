@@ -1,11 +1,11 @@
 ##### 模型选择: default: SD;  SD3;  flux
-model_type = "flux"
+model_type = "SD"
 
 #------------------------------------- if modelType == SD -------------------------------------
 [SD]
 pretrained_model_name_or_path = "models/1.ckpt"
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/sdlora"
+output_dir = "train/output/sd/models"
 output_name = "chinese_painting"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
@@ -16,15 +16,15 @@ optimizer_type = "AdamW8bit"
 mixed_precision="fp16"
 cache_latents = true
 gradient_checkpointing = true
-save_every_n_epochs=50
+save_every_n_epochs=10
 network_module="networks.lora"
-logging_dir = "train/output/sdxl/logs"
+logging_dir = "train/output/sd/logs"
 
 #------------------------------------- if modelType == SDXL -------------------------------------
 [SDXL]
 pretrained_model_name_or_path = "models/sd_xl.safetensors"
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/sdxl"
+output_dir = "train/output/sdxl/models"
 output_name = "chinese_painting"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
