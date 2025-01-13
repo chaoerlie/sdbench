@@ -29,13 +29,39 @@ def load_existing_results(output_json):
     else:
         return {}
 
-def compute_and_save_scores(output_dir, prompt_file, output_json):
+def calculate_average_scores(folder_results):
+    """
+    计算每个文件夹的 HPS、ImageReward 和 ClipScore 的均值
+    """
+    hps_scores = []
+    image_rewards = []
+    clip_scores = []
+    
+    for result in folder_results:
+        hps_scores.append(result['hps'])
+        image_rewards.append(result['ImageReward'])
+        clip_scores.append(result['ClipScore'])
+    
+    avg_hps = sum(hps_scores) / len(hps_scores) if hps_scores else 0
+    avg_image_reward = sum(image_rewards) / len(image_rewards) if image_rewards else 0
+    avg_clip_score = sum(clip_scores) / len(clip_scores) if clip_scores else 0
+    
+    return {
+        'hps': avg_hps,
+        'image_reward': avg_image_reward,
+        'clip_score': avg_clip_score
+    }
+
+def compute_and_save_scores(output_dir, prompt_file, output_json, output_avg_json):
     # 加载现有结果
     results = load_existing_results(output_json)
     folder_paths, prompts = get_folders_and_prompts(output_dir, prompt_file)
     
     # 加载 ImageReward 模型
     model = RM.load("ImageReward-v1.0")
+
+    # 用来保存每个文件夹的均值
+    average_results = {}
 
     # 遍历每个文件夹，计算分数
     print("Processing folders and images...")
@@ -87,15 +113,25 @@ def compute_and_save_scores(output_dir, prompt_file, output_json):
         # 保存当前文件夹的结果到结果字典中
         results[folder_name] = folder_results
         
+        # 计算当前文件夹的分数均值
+        average_scores = calculate_average_scores(folder_results)
+        average_results[folder_name] = average_scores
+        
         # 每处理完一个文件夹后保存结果到 JSON 文件
         with open(output_json, 'w') as f:
             json.dump(results, f, indent=4)
         print(f"Results for {folder_name} saved.")
-
+    
+    # 保存每个文件夹的分数均值到新的 JSON 文件
+    with open(output_avg_json, 'w') as f:
+        json.dump(average_results, f, indent=4)
+    
     print(f"All results saved to {output_json}")
+    print(f"Average scores saved to {output_avg_json}")
 
 if __name__ == "__main__":
     output_json = "/home/ps/sdbench/results.json"
-    output_dir = "/home/ps/sdbench/result"
-    prompt_file = "/home/ps/sdbench/outputs/prompt.txt"
-    compute_and_save_scores(output_dir, prompt_file, output_json)
+    output_avg_json = "/home/ps/sdbench/average_results.json"  # 保存均值的 JSON 文件
+    output_dir = "/home/ps/sdbench/benc/eachfolder"
+    prompt_file = "/home/ps/sdbench/prompt.txt"
+    compute_and_save_scores(output_dir, prompt_file, output_json, output_avg_json)

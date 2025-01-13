@@ -69,7 +69,7 @@ height = 1024
 steps = 50
 guidance = 3.5
 cfg_scale = 1.0
-n_samples = 1
+n_samples = 2
 
 # lora_model_path = ["models/lora/fluxlora/chinese_painting-30.safetensors"]
 # lora_weight = [1.0]

@@ -1,5 +1,6 @@
 #!/bin/bash
-
+export NCCL_P2P_DISABLE=1
+export NCCL_IB_DISABLE=1
 # 设置常用的参数
 CKPT_PATH='models/flux/flux1-dev.sft'
 CLIP_L='models/flux/clip_l.safetensors'

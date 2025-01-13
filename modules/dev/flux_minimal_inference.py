@@ -607,3 +607,210 @@ def gen_img():
 
     logger.info("Done!")
 
+if __name__ == "__main__":
+    target_height = 768  # 1024
+    target_width = 1360  # 1024
+
+    # steps = 50  # 28  # 50
+    # guidance_scale = 5
+    # seed = 1  # None  # 1
+
+    device = get_preferred_device()
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--ckpt_path", type=str, required=True)
+    parser.add_argument("--clip_l", type=str, required=False)
+    parser.add_argument("--t5xxl", type=str, required=False)
+    parser.add_argument("--ae", type=str, required=False)
+    parser.add_argument("--apply_t5_attn_mask", action="store_true")
+    parser.add_argument("--prompt", type=str, default="A photo of a cat")
+    parser.add_argument("--output_dir", type=str, default=".")
+    parser.add_argument("--dtype", type=str, default="bfloat16", help="base dtype")
+    parser.add_argument("--clip_l_dtype", type=str, default=None, help="dtype for clip_l")
+    parser.add_argument("--ae_dtype", type=str, default=None, help="dtype for ae")
+    parser.add_argument("--t5xxl_dtype", type=str, default=None, help="dtype for t5xxl")
+    parser.add_argument("--flux_dtype", type=str, default=None, help="dtype for flux")
+    parser.add_argument("--seed", type=int, default=None)
+    parser.add_argument("--steps", type=int, default=None, help="Number of steps. Default is 4 for schnell, 50 for dev")
+    parser.add_argument("--guidance", type=float, default=3.5)
+    parser.add_argument("--negative_prompt", type=str, default=None)
+    parser.add_argument("--cfg_scale", type=float, default=1.0)
+    parser.add_argument("--offload", action="store_true", help="Offload to CPU")
+    parser.add_argument("--n_samples", type=int, default=1)
+    parser.add_argument(
+        "--lora_weights",
+        type=str,
+        nargs="*",
+        default=[],
+        help="LoRA weights, only supports networks.lora_flux and lora_oft, each argument is a `path;multiplier` (semi-colon separated)",
+    )
+    parser.add_argument("--merge_lora_weights", action="store_true", help="Merge LoRA weights to model")
+    parser.add_argument("--width", type=int, default=target_width)
+    parser.add_argument("--height", type=int, default=target_height)
+    parser.add_argument("--interactive", action="store_true")
+    args = parser.parse_args()
+
+    seed = args.seed
+    steps = args.steps
+    guidance_scale = args.guidance
+
+    def is_fp8(dt):
+        return dt in [torch.float8_e4m3fn, torch.float8_e4m3fnuz, torch.float8_e5m2, torch.float8_e5m2fnuz]
+
+    dtype = str_to_dtype(args.dtype)
+    clip_l_dtype = str_to_dtype(args.clip_l_dtype, dtype)
+    t5xxl_dtype = str_to_dtype(args.t5xxl_dtype, dtype)
+    ae_dtype = str_to_dtype(args.ae_dtype, dtype)
+    flux_dtype = str_to_dtype(args.flux_dtype, dtype)
+
+    logger.info(f"Dtypes for clip_l, t5xxl, ae, flux: {clip_l_dtype}, {t5xxl_dtype}, {ae_dtype}, {flux_dtype}")
+
+    loading_device = "cpu" if args.offload else device
+
+    use_fp8 = [is_fp8(d) for d in [dtype, clip_l_dtype, t5xxl_dtype, ae_dtype, flux_dtype]]
+    if any(use_fp8):
+        accelerator = accelerate.Accelerator(mixed_precision="bf16")
+    else:
+        accelerator = None
+
+    # load clip_l
+    logger.info(f"Loading clip_l from {args.clip_l}...")
+    clip_l = flux_utils.load_clip_l(args.clip_l, clip_l_dtype, loading_device)
+    clip_l.eval()
+
+    logger.info(f"Loading t5xxl from {args.t5xxl}...")
+    t5xxl = flux_utils.load_t5xxl(args.t5xxl, t5xxl_dtype, loading_device)
+    t5xxl.eval()
+
+    # if is_fp8(clip_l_dtype):
+    #     clip_l = accelerator.prepare(clip_l)
+    # if is_fp8(t5xxl_dtype):
+    #     t5xxl = accelerator.prepare(t5xxl)
+
+    # DiT
+    is_schnell, model = flux_utils.load_flow_model(args.ckpt_path, None, loading_device)
+    model.eval()
+    logger.info(f"Casting model to {flux_dtype}")
+    model.to(flux_dtype)  # make sure model is dtype
+    # if is_fp8(flux_dtype):
+    #     model = accelerator.prepare(model)
+    #     if args.offload:
+    #         model = model.to("cpu")
+
+    t5xxl_max_length = 256 if is_schnell else 512
+    tokenize_strategy = strategy_flux.FluxTokenizeStrategy(t5xxl_max_length)
+    encoding_strategy = strategy_flux.FluxTextEncodingStrategy()
+
+    # AE
+    ae = flux_utils.load_ae(args.ae, ae_dtype, loading_device)
+    ae.eval()
+    # if is_fp8(ae_dtype):
+    #     ae = accelerator.prepare(ae)
+
+    # LoRA
+    lora_models: List[lora_flux.LoRANetwork] = []
+    for weights_file in args.lora_weights:
+        if ";" in weights_file:
+            weights_file, multiplier = weights_file.split(";")
+            multiplier = float(multiplier)
+        else:
+            multiplier = 1.0
+
+        weights_sd = load_file(weights_file)
+        is_lora = is_oft = False
+        for key in weights_sd.keys():
+            if key.startswith("lora"):
+                is_lora = True
+            if key.startswith("oft"):
+                is_oft = True
+            if is_lora or is_oft:
+                break
+
+        module = lora_flux if is_lora else oft_flux
+        lora_model, _ = module.create_network_from_weights(multiplier, None, ae, [clip_l, t5xxl], model, weights_sd, True)
+
+        if args.merge_lora_weights:
+            lora_model.merge_to([clip_l, t5xxl], model, weights_sd)
+        else:
+            lora_model.apply_to([clip_l, t5xxl], model)
+            info = lora_model.load_state_dict(weights_sd, strict=True)
+            logger.info(f"Loaded LoRA weights from {weights_file}: {info}")
+            lora_model.eval()
+            lora_model.to(device)
+
+        lora_models.append(lora_model)
+
+    if not args.interactive:
+        for index in range(args.n_samples):
+            print("index----------------------------------------------------------------------------------------,",
+                  index)
+            generate_image(
+            model,
+            clip_l,
+            t5xxl,
+            ae,
+            args.prompt,
+            args.seed,
+            args.width,
+            args.height,
+            args.steps,
+            args.guidance,
+            args.negative_prompt,
+            args.cfg_scale,
+            args, clip_l_dtype, dtype, device, t5xxl_dtype, tokenize_strategy, accelerator, encoding_strategy, is_schnell, flux_dtype, ae_dtype
+
+        )
+    else:
+        # loop for interactive
+        width = target_width
+        height = target_height
+        steps = None
+        guidance = args.guidance
+        cfg_scale = args.cfg_scale
+
+        while True:
+            print(
+                "Enter prompt (empty to exit). Options: --w <width> --h <height> --s <steps> --d <seed> --g <guidance> --m <multipliers for LoRA>"
+                " --n <negative prompt>, `-` for empty negative prompt --c <cfg_scale>"
+            )
+            prompt = input()
+            if prompt == "":
+                break
+
+            # parse options
+            options = prompt.split("--")
+            prompt = options[0].strip()
+            seed = None
+            negative_prompt = None
+            for opt in options[1:]:
+                try:
+                    opt = opt.strip()
+                    if opt.startswith("w"):
+                        width = int(opt[1:].strip())
+                    elif opt.startswith("h"):
+                        height = int(opt[1:].strip())
+                    elif opt.startswith("s"):
+                        steps = int(opt[1:].strip())
+                    elif opt.startswith("d"):
+                        seed = int(opt[1:].strip())
+                    elif opt.startswith("g"):
+                        guidance = float(opt[1:].strip())
+                    elif opt.startswith("m"):
+                        mutipliers = opt[1:].strip().split(",")
+                        if len(mutipliers) != len(lora_models):
+                            logger.error(f"Invalid number of multipliers, expected {len(lora_models)}")
+                            continue
+                        for i, lora_model in enumerate(lora_models):
+                            lora_model.set_multiplier(float(mutipliers[i]))
+                    elif opt.startswith("n"):
+                        negative_prompt = opt[1:].strip()
+                        if negative_prompt == "-":
+                            negative_prompt = ""
+                    elif opt.startswith("c"):
+                        cfg_scale = float(opt[1:].strip())
+                except ValueError as e:
+                    logger.error(f"Invalid option: {opt}, {e}")
+
+            generate_image(model, clip_l, t5xxl, ae, prompt, seed, width, height, steps, guidance, negative_prompt, cfg_scale)
+
+    logger.info("Done!")
