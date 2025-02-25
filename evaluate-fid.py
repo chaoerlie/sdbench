@@ -25,13 +25,13 @@ def compute_and_save_scores(output_dir, result_fid_json):
         print(f"Processing folder: {folder_name}")
         
         # 计算 CMMD 和 FID 分数（针对整个文件夹）
-        CMMD_score = calc_CMMD_Score('result/true', folder_path)
-        fid_score = calc_Fid('result/true', folder_path)
+        CMMD_score = calc_CMMD_Score('/home/ps/sdbench/Shanshui/Shanshui', folder_path)
+        # fid_score = calc_Fid('/home/ps/sdbench/Shanshui/Shanshui', folder_path)
         
         # 将分数添加到结果字典中
         results[folder_name] = {
             'CMMD_score': CMMD_score,
-            'FID_score': fid_score
+            # 'FID_score': fid_score
         }
 
     # 保存结果到 JSON 文件
@@ -41,6 +41,6 @@ def compute_and_save_scores(output_dir, result_fid_json):
     print(f"Results saved to {result_fid_json}")
 
 if __name__ == "__main__":
-    output_dir = "/home/ps/sdbench/benc/all"  # 目标文件夹路径
-    result_fid_json = "/home/ps/sdbench/result_fid.json"  # 保存结果的 JSON 文件路径
+    output_dir = "/home/ps/sdbench/benc/test/1"  # 目标文件夹路径
+    result_fid_json = "/home/ps/sdbench/result_fid5.json"  # 保存结果的 JSON 文件路径
     compute_and_save_scores(output_dir, result_fid_json)
