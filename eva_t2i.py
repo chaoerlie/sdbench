@@ -132,6 +132,6 @@ def compute_and_save_scores(output_dir, prompt_file, output_json, output_avg_jso
 if __name__ == "__main__":
     output_json = "/home/ps/sdbench/results.json"
     output_avg_json = "/home/ps/sdbench/average_results.json"  # 保存均值的 JSON 文件
-    output_dir = "/home/ps/sdbench/benc/eachfolder"
+    output_dir = "/home/ps/sdbench/benc/flux"
     prompt_file = "/home/ps/sdbench/prompt.txt"
     compute_and_save_scores(output_dir, prompt_file, output_json, output_avg_json)

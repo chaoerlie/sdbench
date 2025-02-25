@@ -6,7 +6,7 @@ import modules.dev.flux_minimal_inference as flux_gen
 import modules.stable.sdxl_gen_img as sdxl_gen
 import sys,os
 import toml # type: ignore
-import evaluate.evaluate_utils as eva
+
 
 os.environ["NCCL_IB_DISABLE"] = "1"
 os.environ["NCCL_P2P_DISABLE"] = "1"
