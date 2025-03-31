@@ -21,6 +21,7 @@ from . import distance
 from . import embedding
 from . import io_util
 import numpy as np
+import os
 
 
 _BATCH_SIZE = flags.DEFINE_integer("batch_size", 32, "Batch size for embedding generation.")

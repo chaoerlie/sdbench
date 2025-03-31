@@ -1,20 +1,26 @@
 import torch
 import torchvision
+import os;
 
 from pytorch_fid import fid_score
-# # 准备真实数据分布和生成模型的图像数据
-# real_images_folder = 'result/sdlora'
-# generated_images_folder = 'result/fluxlora'
-# # 加载预训练的Inception-v3模型
-# # inception_model = torchvision.models.inception_v3()
-# # 定义图像变换
 
-# # 计算FID距离值
-# fid_value = fid_score.calculate_fid_given_paths([real_images_folder, generated_images_folder],batch_size=50, device='cuda:0', dims=2048, num_workers=1)
+def count_images(folders):
+    return len([f for f in os.listdir(folders) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])
 
-# print('FID value:', fid_value)
+def calc_Fid(real_images_folder,generated_images_folder, batch_size=50, device=None, dims=2048):
+    if device is None:
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+    num_real = count_images(real_images_folder)
+    num_generated = count_images(generated_images_folder)
+    print("真实图像个数:",num_real)
+    print("生成图像个数:",num_generated)
 
-def calc_Fid(real_images_folder,generated_images_folder):
-    fid_value = fid_score.calculate_fid_given_paths([real_images_folder, generated_images_folder],batch_size=50, device='cuda:0', dims=2048, num_workers=1)
+    fid_value = fid_score.calculate_fid_given_paths([real_images_folder, generated_images_folder],batch_size=batch_size, device=device, dims=dims)
     return fid_value
+
+if __name__ == '__main__':
+    real_images_folder = '/home/ps/sdbench/Shanshui/Shanshui'
+    generated_images_folder = '/home/ps/sdbench/benc/test/1'
+    fid_value = calc_Fid(real_images_folder,generated_images_folder, batch_size=50, device='cuda:0', dims=2048)
+    print('FID value:', fid_value)

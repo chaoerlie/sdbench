@@ -100,7 +100,7 @@ def create_network(
 
         selected = [False] * total_blocks
         ranges = selection.split(",")
-
+        # print(f"total blocks: {total_blocks}")
         for r in ranges:
             if "-" in r:
                 start, end = map(str.strip, r.split("-"))
@@ -121,7 +121,7 @@ def create_network(
     train_block_indices = kwargs.get("train_block_indices", None)
     if train_block_indices is not None:
         train_block_indices = parse_block_selection(train_block_indices, 999)  # 999 is a dummy number
-
+    # print(f"train_block_indices: {train_block_indices}")
     # rank/module dropout
     rank_dropout = kwargs.get("rank_dropout", None)
     if rank_dropout is not None:
@@ -370,6 +370,7 @@ class LoRANetwork(torch.nn.Module):
 
                                     if is_mmdit and dim and self.train_block_indices is not None and "joint_blocks" in lora_name:
                                         # "lora_unet_joint_blocks_0_x_block_attn_proj..."
+                                        print(lora_name)
                                         block_index = int(lora_name.split("_")[4])  # bit dirty
                                         if self.train_block_indices is not None and not self.train_block_indices[block_index]:
                                             dim = 0

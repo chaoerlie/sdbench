@@ -23,31 +23,31 @@ import toml
 from tqdm import tqdm
 
 import torch
-from library.device_utils import init_ipex, clean_memory_on_device
+from library2.device_utils import init_ipex, clean_memory_on_device
 
 init_ipex()
 
 from accelerate.utils import set_seed
-from library import deepspeed_utils, flux_train_utils, flux_utils, strategy_base, strategy_flux
-from library.sd3_train_utils import FlowMatchEulerDiscreteScheduler
+from library2 import deepspeed_utils, flux_train_utils, flux_utils, strategy_base, strategy_flux
+from library2.sd3_train_utils import FlowMatchEulerDiscreteScheduler
 
-import library.train_util as train_util
+import library2.train_util as train_util
 
-from library.utils import setup_logging, add_logging_arguments
+from library2.utils import setup_logging, add_logging_arguments
 
 setup_logging()
 import logging
 
 logger = logging.getLogger(__name__)
 
-import library.config_util as config_util
+import library2.config_util as config_util
 
 # import library.sdxl_train_util as sdxl_train_util
-from library.config_util import (
+from library2.config_util import (
     ConfigSanitizer,
     BlueprintGenerator,
 )
-from library.custom_train_functions import apply_masked_loss, add_custom_train_arguments
+from library2.custom_train_functions import apply_masked_loss, add_custom_train_arguments
 
 
 def train(args):
@@ -509,9 +509,9 @@ def train(args):
 
     if args.fused_backward_pass:
         # use fused optimizer for backward pass: other optimizers will be supported in the future
-        import library.adafactor_fused
+        import library2.adafactor_fused
 
-        library.adafactor_fused.patch_adafactor_fused(optimizer)
+        library2.adafactor_fused.patch_adafactor_fused(optimizer)
 
         blocks_to_swap = args.blocks_to_swap
         num_double_blocks = len(accelerator.unwrap_model(flux).double_blocks)

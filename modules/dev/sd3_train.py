@@ -12,35 +12,35 @@ import toml
 from tqdm import tqdm
 
 import torch
-from library import utils
-from library.device_utils import init_ipex, clean_memory_on_device
+from library2 import utils
+from library2.device_utils import init_ipex, clean_memory_on_device
 
 init_ipex()
 
 from accelerate.utils import set_seed
 from diffusers import DDPMScheduler
-from library import deepspeed_utils, sd3_models, sd3_train_utils, sd3_utils, strategy_base, strategy_sd3
-from library.sdxl_train_util import match_mixed_precision
+from library2 import deepspeed_utils, sd3_models, sd3_train_utils, sd3_utils, strategy_base, strategy_sd3
+from library2.sdxl_train_util import match_mixed_precision
 
 # , sdxl_model_util
 
-import library.train_util as train_util
+import library2.train_util as train_util
 
-from library.utils import setup_logging, add_logging_arguments
+from library2.utils import setup_logging, add_logging_arguments
 
 setup_logging()
 import logging
 
 logger = logging.getLogger(__name__)
 
-import library.config_util as config_util
+import library2.config_util as config_util
 
 # import library.sdxl_train_util as sdxl_train_util
-from library.config_util import (
+from library2.config_util import (
     ConfigSanitizer,
     BlueprintGenerator,
 )
-from library.custom_train_functions import apply_masked_loss, add_custom_train_arguments
+from library2.custom_train_functions import apply_masked_loss, add_custom_train_arguments
 
 # from library.custom_train_functions import (
 #     apply_snr_weight,
@@ -640,9 +640,9 @@ def train(args):
 
     if args.fused_backward_pass:
         # use fused optimizer for backward pass: other optimizers will be supported in the future
-        import library.adafactor_fused
+        import library2.adafactor_fused
 
-        library.adafactor_fused.patch_adafactor_fused(optimizer)
+        library2.adafactor_fused.patch_adafactor_fused(optimizer)
 
         blocks_to_swap = args.blocks_to_swap
         num_blocks = len(accelerator.unwrap_model(mmdit).joint_blocks)

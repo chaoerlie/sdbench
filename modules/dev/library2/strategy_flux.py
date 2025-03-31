@@ -247,25 +247,26 @@ if __name__ == "__main__":
 
     texts = ["hello world", "the quick brown fox jumps over the lazy dog"]
     l_tokens_2 = strategy.clip_l(texts, max_length=77, padding="max_length", truncation=True, return_tensors="pt")
-    g_tokens_2 = strategy.clip_g(texts, max_length=77, padding="max_length", truncation=True, return_tensors="pt")
+    # g_tokens_2 = strategy.clip_g(texts, max_length=77, padding="max_length", truncation=True, return_tensors="pt")
     t5_tokens_2 = strategy.t5xxl(
         texts, max_length=strategy.t5xxl_max_length, padding="max_length", truncation=True, return_tensors="pt"
     )
     print(l_tokens_2)
-    print(g_tokens_2)
+    # print(g_tokens_2)
     print(t5_tokens_2)
 
     # compare
     print(torch.allclose(l_tokens, l_tokens_2["input_ids"][0]))
-    print(torch.allclose(g_tokens, g_tokens_2["input_ids"][0]))
+    # print(torch.allclose(g_tokens, g_tokens_2["input_ids"][0]))
     print(torch.allclose(t5_tokens, t5_tokens_2["input_ids"][0]))
 
     text = ",".join(["hello world! this is long text"] * 50)
     l_tokens, g_tokens, t5_tokens = strategy.tokenize(text)
+    print("-----------------------------")
     print(l_tokens)
     print(g_tokens)
     print(t5_tokens)
 
     print(f"model max length l: {strategy.clip_l.model_max_length}")
-    print(f"model max length g: {strategy.clip_g.model_max_length}")
+    # print(f"model max length g: {strategy.clip_g.model_max_length}")
     print(f"model max length t5: {strategy.t5xxl.model_max_length}")

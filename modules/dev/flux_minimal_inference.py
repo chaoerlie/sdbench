@@ -21,7 +21,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
 sys.path.insert(0, '/home/ps/sdbench/modules/dev/library')
 print(sys.path)
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 from library2 import device_utils
 from library2.device_utils import init_ipex, get_preferred_device
 from networks import oft_flux

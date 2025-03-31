@@ -6,13 +6,13 @@ model_type = "flux"
 task = "t2i"
 has_lora = true
 has_controlnet = false
-version = "sdxl"  # v1/v2/sdxl
+version = "v1"  # v1/v2/sdxl
 
 [general]
 ### 基础配置
 # ckpt = "/home/ps/sdbench/models/1.ckpt" # 绝对路径
 ckpt = "/home/ps/sdbench/models/sd_xl.safetensors"
-prompt = "A traditional Chinese landscape painting depicting misty mountains, calm water, and a small wooden boat with a person aboard. The mountains in the background are green and gray, shrouded in soft mist, while the foreground features lush hills and pine trees. The painting uses delicate brush strokes, subtle ink wash shading, and a serene color palette of blues, greens, and grays, evoking a tranquil and ethereal atmosphere typical of classic Chinese watercolor art."
+prompt = "mysterious anime girl with silver hair and heterochromia eyes, wearing a gothic lolita dress, standing under a glowing cherry blossom tree, illuminated by soft moonlight, ultra-detailed, fantasy lighting, cinematic shot"
 negative_prompt = ""
 step = 50
 images_per_prompt = 50
@@ -27,25 +27,30 @@ batch_size = 1
 clip_skip = 2
 fp16 = true
 xformers = true
-### img2img
-[img2img]
-image_path = "1.png"
-strength = 0.7
-use_original_file_name = true
-### inpainting
-[inpainting]
-mask_path = "1.png"
+
+# ### img2img
+# [img2img]
+# image_path = "1.png"
+# strength = 0.7
+# use_original_file_name = true
+# ### inpainting
+# [inpainting]
+# mask_path = "1.png"
+
+
 ### additional network (LoRA)
-[lora]
-network_module = ["networks.lora"]
-network_weights = ["models/lora/sdxl/chinese_painting-40.safetensors"]
-network_mul = [0.8]
+# [lora]
+# network_module = ["networks.lora"]
+# network_weights = ["models/lora/sdxl/chinese_painting-40.safetensors"]
+# network_mul = [0.8]
+
+
 ### controlnet配置
-[controlnet]
-control_net_models = "diff_control_sd15_canny.safetensors"
-control_net_weights = 1.0
-guide_image_path = "guide.png"
-control_net_ratios = 1.0
+# [controlnet]
+# control_net_models = "diff_control_sd15_canny.safetensors"
+# control_net_weights = 1.0
+# guide_image_path = "guide.png"
+# control_net_ratios = 1.0
 
 
 
@@ -58,7 +63,7 @@ clip_l = "models/flux/clip_l.safetensors"
 t5xxl = "models/flux/t5xxl_fp16.safetensors"
 ae = "models/flux/ae.sft"
 dtype = "bf16"
-prompt = "A traditional Chinese landscape painting depicting misty mountains, calm water, and a small wooden boat with a person aboard. The mountains in the background are green and gray, shrouded in soft mist, while the foreground features lush hills and pine trees. The painting uses delicate brush strokes, subtle ink wash shading, and a serene color palette of blues, greens, and grays, evoking a tranquil and ethereal atmosphere typical of classic Chinese watercolor art."
+prompt = "mysterious anime girl with silver hair and heterochromia eyes, wearing a gothic lolita dress, standing under a glowing cherry blossom tree, illuminated by soft moonlight, ultra-detailed, fantasy lighting, cinematic shot"
 negative_prompt = ""
 output = "outputs"
 #seed = 4
@@ -69,10 +74,10 @@ height = 1024
 steps = 50
 guidance = 3.5
 cfg_scale = 1.0
-n_samples = 2
+n_samples = 1
 
-# lora_model_path = ["models/lora/fluxlora/chinese_painting-30.safetensors"]
-# lora_weight = [1.0]
+# lora_model_path = ["/home/ps/sdbench/train/output/flux/chinese_painting_new/chinese_painting-000030.safetensors"]
+# lora_weight = [0.7]
 
 #lora_model_path = ["models/lora/fluxlora/chinese_painting-20.safetensors","models/test.safetensors"]
 #lora_weight = [1.0,1.0]
@@ -84,7 +89,7 @@ clip_g = "models/sd3/clip_g.safetensors"
 clip_l = "models/flux/clip_l.safetensors"
 t5xxl = "models/flux/t5xxl_fp16.safetensors"
 #t5xxl_token_length = 256
-prompt = "A traditional Chinese landscape painting depicting misty mountains, calm water, and a small wooden boat with a person aboard. The mountains in the background are green and gray, shrouded in soft mist, while the foreground features lush hills and pine trees. The painting uses delicate brush strokes, subtle ink wash shading, and a serene color palette of blues, greens, and grays, evoking a tranquil and ethereal atmosphere typical of classic Chinese watercolor art."
+prompt = "mysterious anime girl with silver hair and heterochromia eyes, wearing a gothic lolita dress, standing under a glowing cherry blossom tree, illuminated by soft moonlight, ultra-detailed, fantasy lighting, cinematic shot"
 negative_prompt = ""
 output = "outputs"
 offload = true
@@ -93,7 +98,7 @@ bf16 = true
 width = 1024
 height = 1024
 steps = 50
-n_samples = 1
+n_samples = 5
 
 # lora_model_path = ["models/lora/sd3lora/chinese_painting-40.safetensors"]
 # lora_weight = [1.0]

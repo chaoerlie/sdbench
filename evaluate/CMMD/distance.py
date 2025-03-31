@@ -61,9 +61,9 @@ def mmd(x, y):
         torch.exp(-gamma * (-2 * torch.matmul(y, y.T) + torch.unsqueeze(y_sqnorms, 1) + torch.unsqueeze(y_sqnorms, 0)))
     )
 
-    # Print the intermediate values
-    # print(f"k_xx: {k_xx.item():.9f}")
-    # print(f"k_yy: {k_yy.item():.9f}")
-    # print(f"2 * k_xy: {(2 * k_xy).item():.9f}")
+    #Print the intermediate values
+    print(f"k_xx: {k_xx.item():.9f}")
+    print(f"k_yy: {k_yy.item():.9f}")
+    print(f"2 * k_xy: {(2 * k_xy).item():.9f}")
 
     return _SCALE * (k_xx + k_yy - 2 * k_xy)

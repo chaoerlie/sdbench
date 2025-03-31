@@ -1,5 +1,5 @@
 ##### 模型选择: default: SD;  SD3;  flux
-model_type = "SD"
+model_type = "SD3"
 
 #------------------------------------- if modelType == SD -------------------------------------
 [SD]
@@ -24,8 +24,8 @@ logging_dir = "train/output/sd/logs"
 [SDXL]
 pretrained_model_name_or_path = "models/sd_xl.safetensors"
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/sdxl/models"
-output_name = "chinese_painting"
+output_dir = "train/output/sdxl/Renwu"
+output_name = "Renwu"
 save_model_as = "safetensors"
 prior_loss_weight = 1.0
 max_train_epochs = 50
@@ -60,7 +60,7 @@ save_precision = "bf16"
 network_module = "networks.lora_flux"
 network_dim = 4
 optimizer_type = "adamw8bit"
-sample_prompts = "chinese painting"
+sample_prompts = "abstract painting"
 sample_every_n_steps="1000"
 learning_rate = 8e-4
 cache_text_encoder_outputs = true
@@ -70,8 +70,8 @@ highvram = true
 max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/flux/chinese_painting_new"
-output_name = "chinese_painting"
+output_dir = "train/output/flux/abstract"
+output_name = "abstract"
 timestep_sampling = "shift"
 discrete_flow_shift = 3.1582
 model_prediction_type =  "raw"
@@ -108,10 +108,11 @@ highvram = true
 max_train_epochs = 50
 save_every_n_epochs = 5
 dataset_config = "configs/datasets.toml"
-output_dir = "train/output/sd3/models"
-output_name = "chinese_painting"
+output_dir = "train/output/sd3/abstract"
+output_name = "abstract"
 logging_dir = "train/outputs/sd3/logs"
-sample_prompts = "chinese painting"
+sample_prompts = "abstract painting"
 sample_every_n_steps="500"
+# network_args="train_block_indices=1,2,628,6-9" 
 
 
