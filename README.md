@@ -163,6 +163,9 @@ For specific training methods, the parameters might differ. Please refer to `con
 - **SDXL**: Stable Diffusion XL (SDXL) was proposed in [SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis](https://huggingface.co/papers/2307.01952)
 - **SD1.5**: Stable Diffusion is a text-to-image latent diffusion model created by the researchers and engineers from [CompVis](https://github.com/CompVis), [Stability AI](https://stability.ai/) and [LAION](https://laion.ai/). Latent diffusion applies the diffusion process over a lower dimensional latent space to reduce memory and compute complexity. This specific type of diffusion model was proposed in [High-Resolution Image Synthesis with Latent Diffusion Models](https://huggingface.co/papers/2112.10752).
 
+## CMMP_PLUS (tentative name)
+**CMMP_PLUS (provisional name)** builds upon and optimizes CMMD to conduct quality assessment of individual generated images, analyzing them across two dimensions: semantics and structure.
+
 ## Customization
 
 - Adjust the model architecture and parameters by modifying the `configs/config.toml` or the training script.
